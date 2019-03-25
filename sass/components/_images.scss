@@ -1,0 +1,130 @@
+    /* Images */
+    
+    .logo__img {
+        width: 40px;
+        height: auto;
+        @media screen and (min-width: 1024px) {
+            width: 60px;
+        }
+    }
+    
+    .change_color--wb {
+        fill: white;
+        @media screen and (min-width: 1024px) {
+            fill: $blue-va;
+        }
+    }
+    
+    .icon-nav {
+        width: 20px;
+        top: 5px;
+    }
+    
+    // Image responsive
+    .img-fluid {
+        width: 100%;
+    }
+    
+    .img-balls {
+        width: 100%;
+        @media screen and (min-width: 1024px) {
+            max-width: 410px;
+        }
+    }
+    
+    // Bubble Big
+    .width-bubble {
+        width: 260px;
+    }
+    
+    .width-bubble-img {
+        width: 230px;
+    }
+    
+    .width-splash {
+        width: 290px;
+    }
+    
+    .width-modal {
+        width: 220px;
+    }
+    
+    .circle-shadow {
+        width: 200px;
+        height: 39px;
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+        background-color: rgba(34, 67, 100, 0.1);
+        border-radius: 50%;
+    }
+    
+    .circle-shadow-icon {
+        width: 134px;
+        height: 16px;
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+        background-color: rgba(34, 67, 100, 0.1);
+        border-radius: 50%;
+    }
+    
+    .iphone-shadow {
+        border-radius: 50%;
+        width: 245px;
+        height: 39px;
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+        background-color: rgba(34, 67, 100, 0.1);
+        z-index: 9;
+    }
+    
+    .img-project {
+        width: 160px;
+        @media screen and (min-width: 1024px) {
+            width: 238px;
+            z-index: 9;
+        }
+    }
+    
+    .logo-pj {
+        width: 300px;
+        position: absolute;
+        z-index: 1;
+        left: 10px;
+        opacity: 0.37;
+        transition: 1s linear;
+    }
+    
+    .img-project:hover+.logo-pj {
+        left: 250px;
+        opacity: 1;
+    }
+    
+    .paint {
+        top: -44px;
+        left: -22px;
+    }
+    
+    .laptop {
+        top: -70px;
+    }
+    
+    .img-brain {
+        width: 60%;
+    }
+    
+    .position-brain {
+        top: -53px;
+        left: 5%;
+    }
+    
+    .img-bubble {
+        width: 475px;
+    }
+    
+    .img-laptop {
+        width: 475px;
+    }
+    
+    .img-modal {
+        width: 400px;
+    }

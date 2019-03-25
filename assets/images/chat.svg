@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="194px" height="194px" viewBox="0 0 194 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3EA1B2" offset="0%"></stop>
+            <stop stop-color="#005D68" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="chat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M95,156 C106.424549,156 117.115553,152.859317 126.256716,147.394246 C126.674691,148.054276 137.171321,157.517161 152.009643,155.306583 C150.306101,153.196418 139.396325,135.911276 141.328529,133.852164 C151.566935,122.941295 156,111.142992 156,95 C156,61.3106303 128.68937,34 95,34 C61.3106303,34 34,61.3106303 34,95 C34,128.68937 61.3106303,156 95,156 Z" id="Oval-Copy-3" fill="url(#linearGradient-1)"></path>
+        <circle id="Oval-Copy-4" fill="#FFFFFF" cx="95.5" cy="97.5" r="6.5"></circle>
+        <circle id="Oval-Copy-5" fill="#FFFFFF" cx="126.5" cy="97.5" r="6.5"></circle>
+        <circle id="Oval-Copy-6" fill="#FFFFFF" cx="64.5" cy="97.5" r="6.5"></circle>
+    </g>
+</svg>

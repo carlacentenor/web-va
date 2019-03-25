@@ -1,0 +1,14 @@
+.box-input {
+    border: none;
+    border-bottom: 2px solid $blue-va;
+    opacity: 0.4;
+    width: 95%;
+    &::placeholder {
+        color: $blue-va;
+        font-size: 16px;
+        opacity: 0.4;
+    }
+    &:focus {
+        outline: none;
+    }
+}

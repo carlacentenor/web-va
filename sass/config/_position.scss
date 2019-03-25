@@ -1,0 +1,111 @@
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+@mixin flex {
+    display: flex;
+}
+
+.flex-vertical {
+    @include flex;
+    align-items: center;
+}
+
+.flex-horizontal {
+    @include flex;
+    justify-content: center;
+}
+
+.flex-horizontal-mob {
+    @include flex;
+    justify-content: center;
+    @media screen and (min-width: 1024px) {
+        display: block;
+    }
+}
+
+.flex-center {
+    @include flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-h-end {
+    @include flex;
+    justify-content: flex-end;
+}
+
+.flex-alternative {
+    @include flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (min-width: 1024px) {
+        justify-content: flex-end
+    }
+}
+
+.text-alternative-flex {
+    @media screen and (min-width: 1024px) {
+        text-align: right;
+        @include flex;
+        justify-content: flex-end
+    }
+}
+
+.align-alternative {
+    text-align: center;
+    @media screen and (min-width: 1024px) {
+        text-align: left;
+    }
+}
+
+.alig-desktop {
+    text-align: left;
+    @media screen and (min-width: 1024px) {
+        text-align: right;
+    }
+}
+
+.h-proyect {
+    @media screen and (min-height: 700px) {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+    }
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        align-items: center;
+        height: 80vh;
+    }
+}
+
+.spacing-alternative {
+    padding: 1em 0;
+    @media screen and (min-width: 1024px) {
+        margin-top: 3em;
+    }
+}

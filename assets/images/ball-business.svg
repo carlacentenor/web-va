@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="270px" height="270px" viewBox="0 0 270 270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ball-business</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="29.3175538%" y1="69.6506904%" x2="70.7681807%" y2="33.2901985%" id="linearGradient-1">
+            <stop stop-color="#72B0D9" offset="0%"></stop>
+            <stop stop-color="#3E78B2" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="136" cy="136" r="125"></circle>
+        <filter x="-8.8%" y="-7.2%" width="119.2%" height="119.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="2" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.100231092   0 0 0 0 0.211588033   0 0 0 0 0.322944973  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="34.4423554%" x2="61.9434701%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#9488B2" stop-opacity="0.802174388" offset="0%"></stop>
+            <stop stop-color="#5B507A" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-5" cx="125" cy="125" r="125"></circle>
+    </defs>
+    <g id="ball-business" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval-Copy-4">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+        <g id="BUSINESS-Copy" opacity="0.526320685" transform="translate(11.000000, 11.000000)">
+            <mask id="mask-6" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+            <text id="Business" mask="url(#mask-6)" font-family="Montserrat-Bold, Montserrat" font-size="36" font-weight="bold" fill="#FFFFFF">
+                <tspan x="88.3534137" y="138.413655">Business</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,325 @@
+    .title_home-1 {
+        font-family: $title-font;
+        font-size: 32px;
+        color: $blue-va;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+        @media screen and (min-width: 1024px) {
+            font-size: 64px;
+            margin-bottom: 32px;
+        }
+    }
+    
+    .title-white {
+        color: white;
+        font-family: $title-font;
+        text-transform: uppercase;
+        font-size: 32px;
+    }
+    
+    .subtitle {
+        font-family: $title-font;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .subtitle-section {
+        font-family: $title-font;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    }
+    
+    .subtitle-section-big {
+        font-family: $title-font;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        @media screen and (min-width: 1024px) {
+            font-size: 64px;
+            text-shadow: none;
+            text-align: right;
+        }
+    }
+    
+    // Fonts
+    .body-font {
+        font-family: $base;
+        color: $blue-va;
+    }
+    
+    .body-font-2 {
+        font-family: $title-font;
+        font-size: 16px;
+    }
+    
+    .body-font-3 {
+        font-family: $base;
+        font-size: 16px;
+        line-height: 1;
+        @media screen and (min-width: 1024px) {
+            font-size: 24px;
+        }
+    }
+    
+    .body-font-4 {
+        font-family: $title-font;
+        font-size: 14px;
+    }
+    
+    .body-font-5 {
+        font-family: $base;
+        font-size: 14px;
+    }
+    
+    .body-font-6 {
+        font-family: $title-font;
+        font-size: 20px;
+    }
+    
+    .body-font-7 {
+        font-family: $title-font;
+        font-size: 10px;
+        @media screen and (min-width: 1024px) {
+            font-size: 16px;
+        }
+    }
+    
+    .body-font-8 {
+        font-family: $base;
+        font-size: 18px;
+        line-height: 1;
+    }
+    
+    .body-font--primary {
+        font-size: 24px;
+    }
+    
+    .body-font-9 {
+        font-family: $title-font;
+        font-size: 16px;
+        @media screen and (min-width: 1024px) {
+            font-size: 18px;
+        }
+    }
+    
+    .body-font-10 {
+        font-family: $base;
+        font-size: 18px;
+        line-height: 1;
+        @media screen and (min-width: 1024px) {
+            font-size: 24px;
+            line-height: 1.17;
+        }
+    }
+    
+    .body-font--secondary {
+        font-size: 20px;
+        @media screen and (min-width: 1024px) {
+            font-size: 24px;
+        }
+    }
+    
+    .body-section-font {
+        font-size: 20px;
+        font-family: $base;
+        line-height: 1.1;
+    }
+    
+    .body-font--alternative {
+        font-size: 18px;
+    }
+    
+    .body-font-w {
+        font-family: $base;
+        color: white;
+    }
+    
+    .text-uppercase {
+        text-transform: uppercase;
+    }
+    
+    .text-shadow {
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    }
+    
+    .f-bold {
+        font-weight: bold;
+    }
+    
+    // Color text
+    .text-grey {
+        color: $grey-va;
+    }
+    
+    .text-white {
+        color: white;
+    }
+    
+    .text-blue {
+        color: $blue-va;
+    }
+    
+    .text-blue2 {
+        color: $blue2-va;
+    }
+    
+    .text-pink {
+        color: $pink-va;
+    }
+    
+    .text-turquoise {
+        color: $turquoise-va;
+    }
+    
+    // text mini title menu
+    .text-nav {
+        text-transform: uppercase;
+        opacity: 0.5;
+        color: white;
+        font-weight: 700;
+        @media screen and (min-width: 1024px) {
+            color: $blue-va;
+            transform: rotate(90deg);
+            top: 60px;
+            right: -10px;
+        }
+    }
+    
+    .title-nav-our {
+        @media screen and (min-width: 1024px) {
+            top: 80px;
+            right: -26px;
+        }
+    }
+    
+    .text-nav-white {
+        @media screen and (min-width: 1024px) {
+            text-transform: uppercase;
+            opacity: 0.5;
+            color: white;
+            font-weight: 700;
+            transform: rotate(90deg);
+            padding-left: 33px;
+            padding-bottom: 32px;
+        }
+    }
+    
+    .text-nav-w {
+        text-transform: uppercase;
+        opacity: 0.5;
+        color: white;
+        font-weight: 700;
+        transform: rotate(90deg);
+        top: 80px;
+        right: -26px;
+    }
+    
+    // Text images Process
+    .text-bubble {
+        font-family: $base;
+        font-weight: bold;
+        width: 80%;
+        top: 28%;
+        left: 16%;
+        @media screen and (min-width: 1024px) {
+            font-size: 24px;
+            text-align: center;
+            top: 35%;
+            left: 13%;
+        }
+    }
+    
+    .text-splash {
+        font-family: $base;
+        font-weight: bold;
+        font-size: 18px;
+        width: 50%;
+        top: 39%;
+        left: 27%;
+        text-align: center;
+        line-height: 1.2;
+        @media screen and (min-width: 1024px) {
+            font-size: 24px;
+            text-align: center;
+            top: 43%;
+            left: 25%;
+        }
+    }
+    
+    .text-modal {
+        font-family: $base;
+        font-weight: bold;
+        font-size: 18px;
+        width: 80%;
+        top: 35%;
+        left: 11%;
+        text-align: center;
+        line-height: 1.2;
+        @media screen and (min-width: 1024px) {
+            font-size: 24px;
+            text-align: center;
+            top: 43%;
+            left: 10%;
+        }
+    }
+    
+    .text-brain {
+        font-family: $base;
+        font-weight: bold;
+        font-size: 18px;
+        width: 65%;
+        top: 45px;
+        left: 29%;
+        text-align: center;
+        line-height: 1.2;
+        @media screen and (min-width: 1024px) {
+            font-size: 24px;
+            text-align: center;
+            top: 43%;
+            left: 18%;
+        }
+    }
+    
+    // text COntact
+    .subtitle-img {
+        color: $blue-va;
+        text-align: center;
+        width: 192px;
+    }
+    
+    .title-contact {
+        font-size: 20px;
+        @media screen and (min-width: 1024px) {
+            font-size: 56px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+    // Proyect
+    .title-proyect {
+        font-family: $title-font;
+        font-size: 18px;
+        @media screen and (min-width: 1024px) {
+            font-size: 32px;
+        }
+    }
+    
+    .phrase-proyect {
+        font-family: $title-font;
+        font-size: 20px;
+        @media screen and (min-width: 1024px) {
+            margin-top: 8px;
+            margin-bottom: 1em;
+            font-size: 56px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+    .description-proyect {
+        font-family: $base;
+        font-size: 16px;
+        @media screen and (min-width: 1024px) {
+            font-size: 20px;
+        }
+    }

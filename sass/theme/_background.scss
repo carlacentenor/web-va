@@ -1,0 +1,63 @@
+.bg_home1 {
+    @media screen and (min-width: 1024px) {
+        background-image: url("../assets/images/lines.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.bg-blue-va {
+    background-color: $blue-va;
+}
+
+.bg-blue2-va {
+    background-color: $blue2-va;
+}
+
+.bg-pink-va {
+    background-color: $pink-va;
+}
+
+.bg-turquoise-va {
+    background-color: $turquoise-va;
+}
+
+.bg-violet-va {
+    background-color: $violet-va;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-grey {
+    background-color: $grey-va;
+}
+
+// Box BG 
+.box-like {
+    background: $blue-va;
+    color: white;
+    font-family: $title-font;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box-content-about {
+    @media screen and (min-width: 1024px) {
+        width: 750px;
+        p {
+            text-align: right;
+        }
+    }
+}
+
+.align-end {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.expand {
+    flex: 1;
+}

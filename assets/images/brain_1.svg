@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="485px" height="471px" viewBox="0 0 485 471" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>brain</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#005D68" offset="0%"></stop>
+            <stop stop-color="#224364" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#005D68" offset="0%"></stop>
+            <stop stop-color="#224364" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#005D68" offset="0%"></stop>
+            <stop stop-color="#224364" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#005D68" offset="0%"></stop>
+            <stop stop-color="#224364" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#005D68" offset="0%"></stop>
+            <stop stop-color="#224364" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="brain" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-Copy" transform="translate(72.000000, 61.000000)">
+            <path d="M104,94.4583938 C104,135.060883 104,201.458257 104,293.650515 C102.657381,307.105026 94.6167007,314.221227 79.8779581,314.99912 C60.9459867,315.132802 55.5121788,300.00551 56.1671184,293.650515 C37.6713976,293.222264 30.0906377,275.343429 32.4185917,266.309726 C19.5587046,264.421359 3.63990592,244.263736 16.1016315,221.275323 C-21.3316092,184.814924 16.0404373,147.002949 32.4185917,146.02605 C24.2013949,121.142057 38.1480982,103.63297 56.1671184,100.197686 C57.27141,76.8069852 92.4643562,65.0486898 104,94.4583938 Z" id="Path-12" fill="url(#linearGradient-1)"></path>
+            <path d="M228,94.4583938 C228,135.060883 228,201.458257 228,293.650515 C226.644472,307.105026 218.526477,314.221227 203.646015,314.99912 C184.532006,315.132802 179.04595,300.00551 179.707187,293.650515 C161.033623,293.222264 153.379971,275.343429 155.730309,266.309726 C142.746769,264.421359 126.674905,244.263736 139.256455,221.275323 C101.463279,184.814924 139.194672,147.002949 155.730309,146.02605 C147.434101,121.142057 161.514907,103.63297 179.707187,100.197686 C180.822097,76.8069852 216.353437,65.0486898 228,94.4583938 Z" id="Path-12-Copy" fill="url(#linearGradient-2)" transform="translate(175.500000, 196.000000) scale(-1, 1) translate(-175.500000, -196.000000) "></path>
+            <path d="M81,130 C81,130 76.0960054,138.327234 67.9016097,144.406947 C59.707214,150.48666 50,153 50,153" id="Line-3" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"></path>
+            <path d="M179,130 C179,130 174.096005,138.327234 165.90161,144.406947 C157.707214,150.48666 148,153 148,153" id="Line-3-Copy-4" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" transform="translate(163.500000, 141.500000) scale(-1, 1) translate(-163.500000, -141.500000) "></path>
+            <path d="M73,215 C73,215 68.0960054,222.965181 59.9016097,228.780558 C51.707214,234.595936 42,237 42,237" id="Line-3-Copy-2" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" transform="translate(57.500000, 226.000000) scale(1, -1) translate(-57.500000, -226.000000) "></path>
+            <path d="M172,215 C172,215 167.096005,222.965181 158.90161,228.780558 C150.707214,234.595936 141,237 141,237" id="Line-3-Copy-5" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" transform="translate(156.500000, 226.000000) scale(-1, -1) translate(-156.500000, -226.000000) "></path>
+            <path d="M78,168 C78,168 75.5700224,173.812211 75.0907424,180.68493 C74.6114624,187.557649 76.1868485,194 76.1868485,194" id="Line-3-Copy" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"></path>
+            <path d="M177,168 C177,168 173.76003,173.812211 173.12099,180.68493 C172.48195,187.557649 174.582465,194 174.582465,194" id="Line-3-Copy-6" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"></path>
+            <path d="M76,258 C76,258 70.7928593,261.432047 67.0921644,266.983089 C63.3914696,272.534132 62,279 62,279" id="Line-3-Copy-3" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"></path>
+            <path d="M175,258 C175,258 169.420921,261.432047 165.45589,266.983089 C161.49086,272.534132 160,279 160,279" id="Line-3-Copy-7" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"></path>
+            <path d="M209,181 C209,181 190,186 190,186" id="Line-3-Copy-8" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"></path>
+            <path d="M187,226 C187,226 188,248 188,248" id="Line-3-Copy-9" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"></path>
+            <polyline id="Line-5" stroke="#224364" stroke-width="7" stroke-linecap="round" points="209 120 245 120 245 48"></polyline>
+            <polyline id="Line-5-Copy" stroke="#224364" stroke-width="7" stroke-linecap="round" transform="translate(251.000000, 258.000000) scale(1, -1) translate(-251.000000, -258.000000) " points="233 301 269 301 269 215"></polyline>
+            <path d="M245.131981,174.5 L291.92975,174.5" id="Line-6" stroke="#224364" stroke-width="7" stroke-linecap="round"></path>
+            <ellipse id="Oval" fill="url(#linearGradient-3)" cx="245" cy="24" rx="25" ry="24"></ellipse>
+            <ellipse id="Oval-Copy-5" fill="url(#linearGradient-4)" cx="317" cy="174.5" rx="25" ry="24.5"></ellipse>
+            <circle id="Oval-Copy-248" fill="url(#linearGradient-5)" cx="268" cy="325" r="24"></circle>
+        </g>
+    </g>
+</svg>

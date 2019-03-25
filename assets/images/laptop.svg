@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="485px" height="471px" viewBox="0 0 485 471" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>laptop</title>
+    <desc>Created with Sketch.</desc>
+    <g id="laptop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(24.000000, 97.000000)">
+            <path d="M33.819426,-5.17920154e-16 L407.180574,5.17920154e-16 C411.638168,-3.00926524e-16 413.254599,0.464128056 414.884229,1.33566352 C416.513858,2.20719898 417.792801,3.48614185 418.664336,5.11577148 C419.535872,6.74540111 420,8.3618323 420,12.819426 L420,269 L21,269 L21,12.819426 C21,8.3618323 21.4641281,6.74540111 22.3356635,5.11577148 C23.207199,3.48614185 24.4861419,2.20719898 26.1157715,1.33566352 C27.7454011,0.464128056 29.3618323,3.00926524e-16 33.819426,-5.17920154e-16 Z" id="Rectangle" fill="#3E78B2"></path>
+            <path d="M41.819426,8 L400.180574,8 C404.638168,8 406.254599,8.46412806 407.884229,9.33566352 C409.513858,10.207199 410.792801,11.4861419 411.664336,13.1157715 C412.535872,14.7454011 413,16.3618323 413,20.819426 L413,269 L29,269 L29,20.819426 C29,16.3618323 29.4641281,14.7454011 30.3356635,13.1157715 C31.207199,11.4861419 32.4861419,10.207199 34.1157715,9.33566352 C35.7454011,8.46412806 37.3618323,8 41.819426,8 Z" id="Rectangle-Copy-50" fill="#EFEFEF"></path>
+            <rect id="Rectangle" fill="#224364" x="47" y="26" width="347" height="226"></rect>
+            <rect id="Rectangle" fill="#3E78B2" x="0" y="261" width="438" height="17" rx="3"></rect>
+        </g>
+        <g id="Group-5" transform="translate(98.000000, 164.000000)" fill="#5CD89F" fill-opacity="0.15">
+            <rect id="Rectangle" x="0" y="0" width="13" height="6"></rect>
+            <rect id="Rectangle-Copy-52" x="0" y="14" width="13" height="6"></rect>
+            <rect id="Rectangle-Copy-55" x="0" y="53" width="13" height="6"></rect>
+            <rect id="Rectangle-Copy-63" x="0" y="131" width="13" height="6"></rect>
+            <rect id="Rectangle-Copy-59" x="0" y="79" width="13" height="6"></rect>
+            <rect id="Rectangle-Copy-53" x="0" y="28" width="13" height="6"></rect>
+            <rect id="Rectangle-Copy-64" x="0" y="105" width="13" height="6"></rect>
+            <rect id="Rectangle-Copy-57" x="0" y="66" width="13" height="6"></rect>
+            <rect id="Rectangle-Copy-65" x="0" y="145" width="13" height="6"></rect>
+        </g>
+        <text id="&lt;!DOCTYPE-HTML&gt;-&lt;htm" font-family="Montserrat-Medium, Montserrat" font-size="10" font-weight="400" fill="#FFFFFF">
+            <tspan x="116" y="171">&lt;!DOCTYPE HTML&gt;</tspan>
+            <tspan x="116" y="184">&lt;html&gt;</tspan>
+            <tspan x="116" y="197">   &lt;body&gt;</tspan>
+            <tspan x="116" y="210"></tspan>
+            <tspan x="116" y="223">     &lt;script&gt;</tspan>
+            <tspan x="116" y="236">       alert( 'Hello, world!' );</tspan>
+            <tspan x="116" y="249">     &lt;/script&gt;</tspan>
+            <tspan x="116" y="262"></tspan>
+            <tspan x="116" y="275">     &lt;p&gt;Texto asombroso.&lt;/p&gt;</tspan>
+            <tspan x="116" y="288"></tspan>
+            <tspan x="116" y="301">   &lt;/body&gt;</tspan>
+            <tspan x="116" y="314">&lt;/html&gt; </tspan>
+        </text>
+    </g>
+</svg>

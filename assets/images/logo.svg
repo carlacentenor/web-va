@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="362" height="281"></rect>
+    </defs>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo-va" transform="translate(25.000000, 65.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Background"></g>
+            <path d="M227.333901,69.5840865 L158.421242,225.952991 C156.837121,229.547503 153.231284,231.874126 149.244574,231.874126 L108.426791,231.874126 C104.435709,231.874126 100.826793,229.54246 99.2453452,225.942132 L5.68434189e-14,-1.98951966e-13 L52.4108964,-5.95139995e-14 C56.4186439,-6.3734704e-14 60.0392637,2.35093164 61.6104209,5.97341171 L130.854902,165.624376 L203.310915,0.889077985 L203,-1.98951966e-13 L265.359081,-1.98951966e-13 L360.909442,267.572048 C362.737902,272.692329 359.995495,278.299483 354.784106,280.095977 C353.720216,280.462726 352.60086,280.650062 351.473387,280.650062 L203,280.650062 L219.57962,232.452547 L284.28981,232.452547 L227.333901,69.5840865 Z" id="Path" fill="#224364" fill-rule="evenodd" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

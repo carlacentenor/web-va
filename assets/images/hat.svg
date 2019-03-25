@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="165px" viewBox="0 0 160 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>hat</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A63B3B" offset="0%"></stop>
+            <stop stop-color="#731F1F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="hat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6-Copy" transform="translate(79.634348, 82.505571) rotate(-13.000000) translate(-79.634348, -82.505571) translate(38.634348, 35.005571)">
+            <polygon id="Triangle" fill="#B9382F" transform="translate(41.000000, 54.500000) scale(1, -1) translate(-41.000000, -54.500000) " points="42.4303322 14.0457721 80 95 2 95 39.5909099 14"></polygon>
+            <path d="M41.2486145,22 C63.76155,22 82,17.9173886 82,11.8422563 C82,5.76712406 63.76155,0 41.2486145,0 C18.735679,0 0,5.76712406 0,11.8422563 C0,17.9173886 18.735679,22 41.2486145,22 Z" id="Oval" fill="url(#linearGradient-1)"></path>
+            <path d="M15,42 C24.4876134,43.0744394 33.5411819,43.6116591 42.1607055,43.6116591 C50.7802292,43.6116591 59.0852365,43.0048437 67.0757275,41.791213 L59.281033,58.720509 C54.9006655,59.573503 49.5088914,60 43.1057106,60 C36.7025298,60 29.915242,59.5649337 22.7438473,58.6948011 L15,42 Z" id="Path-13" fill="#FFE465"></path>
+        </g>
+    </g>
+</svg>

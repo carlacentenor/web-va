@@ -1,0 +1,101 @@
+canvas {
+    background: transparent;
+    width: 100vw;
+    height: 100vh;
+}
+
+.none {
+    width: 150px;
+    height: 100px;
+    line-height: 40px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    background: none;
+    color: #224364;
+    font-size: 16px;
+    font-family: arial;
+    text-align: center;
+    animation-name: view;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+}
+
+@keyframes view {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.link {
+    color: #224364;
+}
+
+.title {
+    font-weight: bold;
+}
+
+
+/* Efectos Title */
+
+.particle {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #00f7ff;
+    animation: move 3s infinite;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+.particle:nth-child(1) {
+    transform: translate(100px, 10px);
+    animation-delay: .2s;
+}
+
+.particle:nth-child(2) {
+    transform: translate(00px, 200px);
+    animation-delay: .2s;
+}
+
+.particle:nth-child(3) {
+    transform: translate(300px, 300px);
+    animation-delay: .2s;
+}
+
+.particle:nth-child(4) {
+    transform: translate(885px, 264px);
+    animation-delay: .2s;
+}
+
+.particle:nth-child(5) {
+    transform: translate(500px, 500px);
+    animation-delay: .2s;
+}
+
+@keyframes move {
+    100% {
+        transform: translate3d( 0px, 0px, 0px);
+    }
+}
+
+
+/* Images */
+
+.logo__img {
+    width: 60px;
+}
+
+
+/* Title */
+
+.title_1--home {
+    font-family: 'Montserrat', sans-serif;
+}

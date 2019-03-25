@@ -1,0 +1,248 @@
+.accordion {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.item {
+    flex: .5;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+}
+
+.expand-section {
+    flex: 7;
+}
+
+// Title Particles
+body {
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.bubble-wrap {
+    position: relative;
+    transform-origin: center center;
+}
+
+.bubble {
+    position: absolute;
+    opacity: 1;
+    border-radius: 50%;
+    animation: move 1.2s infinite;
+    top: 40px;
+}
+
+@for $i from 1 through 100 {
+    .bubble:nth-child(#{$i}) {
+        $size: random(10)+px;
+        height: $size;
+        width: $size;
+        animation-delay: -$i * 0.2s;
+        transform: translate( (random(2000) * 1px), (random(3000) * -1px));
+    }
+}
+
+.bubble-turquoise {
+    .bubble {
+        background-color: $turquoise-va;
+    }
+}
+
+.bubble-pink {
+    .bubble {
+        background-color: $pink-va;
+    }
+}
+
+.bubble-blue2 {
+    .bubble {
+        background-color: $blue2-va;
+    }
+}
+
+.bubble-blue {
+    .bubble {
+        background-color: $blue-va;
+    }
+}
+
+@keyframes move {
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.animate-desplaza-1 {
+    animation: desplaza 2.5s 1;
+    animation-fill-mode: forwards;
+}
+
+.animate-desplaza-2 {
+    animation: desplaza-design 3.5s 1;
+    animation-fill-mode: forwards;
+}
+
+.animate-desplaza-3 {
+    animation: desplaza-developer 4.7s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desplaza {
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        transform: translatex(300px);
+        opacity: 0;
+    }
+}
+
+@keyframes desplaza-design {
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        transform: translatex(400px);
+        opacity: 0;
+    }
+}
+
+@keyframes desplaza-developer {
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        transform: translatex(600px);
+        opacity: 0;
+    }
+}
+
+@keyframes type {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        width: 30em;
+        opacity: 1;
+    }
+}
+
+.flex {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.fadeInAnimated {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    /* forwards (animation-fill-mode) retains the style from the last keyframe when the animation ends */
+}
+
+.dos {
+    animation-delay: .2s;
+}
+
+.tres {
+    animation-delay: .4s;
+}
+
+.cuatro {
+    animation-delay: .6s;
+}
+
+.cinco {
+    animation-delay: .8s;
+}
+
+.seis {
+    animation-delay: 1s;
+}
+
+.siete {
+    animation-delay: 1.2s;
+}
+
+.ocho {
+    animation-delay: 1.4s;
+}
+
+.nueve {
+    animation-delay: 1.6s;
+}
+
+.diez {
+    animation-delay: 1.8s;
+}
+
+.once {
+    animation-delay: 2s;
+}
+
+.doce {
+    animation-delay: 2.2s;
+}
+
+.trece {
+    animation-delay: 2.4s;
+}
+
+.tx--style {
+    display: inline-block;
+    float: left;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: $title-font;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 15.5px;
+}
+
+.tx-vertical {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: $title-font;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 15.5px;
+    text-align: center;
+}
+
+.container-h {
+    height: 100vh;
+}

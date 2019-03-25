@@ -1,0 +1,26 @@
+// Mixin generate padding and margin
+$max: 48;
+$offset: 8;
+$unit: 'px';
+@mixin spaces-loop($className, $styleName) {
+    $i: 0;
+    @while $i <=$max {
+        #{$className + $i} {
+            #{$styleName}: #{$i + $unit};
+        }
+        $i: $i+$offset;
+    }
+}
+
+// padding
+@include spaces-loop('.p-', 'padding');
+@include spaces-loop('.pl-', 'padding-left');
+@include spaces-loop('.pt-', 'padding-top');
+@include spaces-loop('.pr-', 'padding-right');
+@include spaces-loop('.pb-', 'padding-bottom');
+// Margin
+@include spaces-loop('.m-', 'margin');
+@include spaces-loop('.ml-', 'margin-left');
+@include spaces-loop('.mt-', 'margin-top');
+@include spaces-loop('.mr-', 'margin-right');
+@include spaces-loop('.mb-', 'margin-bottom');

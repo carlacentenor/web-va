@@ -1,0 +1,175 @@
+        .grid-home {
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                align-items: center;
+                grid-gap: 5em;
+            }
+        }
+        
+        .grid-center-home {
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-columns: minmax(auto, 1200px);
+                justify-content: center;
+                height: 70vh;
+                align-items: center;
+            }
+        }
+        
+        .align-grid-home {
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-rows: auto auto 1fr;
+            }
+        }
+        
+        .grid-nav {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+        }
+        
+        .menu-item-grid {
+            display: grid;
+            grid-template-rows: repeat(5, 1fr);
+            background-color: white;
+            grid-gap: 8px;
+            height: 85vh;
+        }
+        
+        .grid-social {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            justify-items: center;
+            @media screen and (min-width: 1024px) {
+                width: 65%;
+                grid-gap: 2em;
+            }
+        }
+        
+        .grid-about {
+            margin-top: 24px;
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                margin-top: 0;
+                height: 45vh;
+            }
+        }
+        
+        .grid-text-nav-about {
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-columns: minmax(auto, 1024px);
+                justify-content: center;
+                height: 80vh;
+            }
+        }
+        
+        .grid-contact {
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-areas: "gretting call";
+                grid-gap: 5em;
+            }
+        }
+        
+        .call {
+            grid-area: call;
+        }
+        
+        .gretting {
+            grid-area: gretting;
+        }
+        
+        .max-w-contact {
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-columns: minmax(auto, 1000px);
+                justify-content: center;
+            }
+        }
+        
+        .max-w-contact-t {
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-columns: minmax(auto, 900px);
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        
+        .grid-title-desktop {
+            height: 150px;
+            display: flex;
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-columns: 1fr 112px;
+                height: 200px;
+            }
+        }
+        
+        .grid-max-w-home {
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-columns: minmax(auto, 1200px);
+                justify-content: center;
+            }
+        }
+        
+        .grid-shadow {
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 8em;
+            }
+        }
+        
+        .grid-max-heigth {
+            @media screen and (max-height: 768px) {
+                grid-template-rows: minmax(auto, 450px);
+            }
+            @media screen and (min-height: 769px) {
+                grid-template-rows: minmax(auto, 600px);
+            }
+        }
+        
+        .grid-text-nav-home {
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-columns: 1fr 112px;
+            }
+        }
+        
+        .grid-proyect {
+            @media screen and (min-width: 1024px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        .grid--shadow-link {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        .container-accoridon-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        .grid_section--process {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+        }
+        
+        .grid_section--developer {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            align-items: center;
+        }
