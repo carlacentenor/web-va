@@ -20,10 +20,16 @@ $dark-yellow-va:#e5cd58;
 $red-va:#ff5a4f;
 $grey-va:#4d4d4d;
 // Fonts
+@font-face {
+    font-family: "Lucida Grande Regular";
+    src: url("../assets/fonts/LucidaGrande.ttf");
+}
+
+@font-face {
+    font-family: "Lucida Grande Bold";
+    src: url("../assets/fonts/LucidaGrandeBold.ttf");
+}
+
 // Fonts Title
 $title-font: 'Montserrat';
-$base: 'Lucida Grande',
-'Lucida Sans Unicode',
-Geneva,
-Verdana,
-sans-serif;
+$base: 'Lucida Grande Regular';

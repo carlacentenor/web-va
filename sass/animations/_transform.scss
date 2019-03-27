@@ -1,0 +1,235 @@
+    .animate-text-move {
+        animation: textmove 5s forwards;
+    }
+    
+    @keyframes textmove {
+        from {
+            top: 0;
+            opacity: 1;
+        }
+        to {
+            left: 10%;
+            width: 80%;
+            top: 400px;
+            opacity: 0;
+            text-align: center;
+        }
+    }
+    
+    .animate-text-move-design {
+        animation: textmovedesign 2s forwards;
+    }
+    
+    @keyframes textmovedesign {
+        from {
+            top: 0;
+            opacity: 1;
+            left: 1%;
+        }
+        to {
+            left: 30%;
+            width: 50%;
+            top: 400px;
+            opacity: 0;
+            text-align: center;
+        }
+    }
+    
+    .animate-show-text {
+        animation: viewtext 2s forwards;
+    }
+    
+    .animate-show-timing {
+        animation: viewtext 5s forwards;
+    }
+    
+    @keyframes viewtext {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .animate-bubble-big {
+        animation: move-bubble 5s forwards;
+    }
+    
+    @keyframes move-bubble {
+        from {
+            left: -50%;
+            opacity: 0;
+        }
+        to {
+            left: 0;
+            opacity: 1;
+        }
+    }
+    
+    .animate-ball-bubble {
+        animation: move-circle .5s forwards;
+    }
+    
+    @keyframes move-circle {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+            ry: 87px;
+            rx: 87px;
+        }
+    }
+    
+    .animate-paint {
+        animation: move-paint .5s forwards;
+    }
+    
+    .animate-splash {
+        opacity: 0;
+        animation: move-splash 2s forwards;
+        animation-delay: 1s;
+    }
+    
+    @keyframes move-paint {
+        from {
+            ry: 10;
+            rx: 15;
+        }
+        to {
+            ry: 100;
+            rx: 120;
+            transform: translateX(50%);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes move-splash {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    .animate-text-move-developer {
+        animation: textmovedeveloper 2s forwards;
+    }
+    
+    @keyframes textmovedeveloper {
+        from {
+            top: 0;
+            opacity: 1;
+            text-align: center;
+        }
+        to {
+            width: 300px;
+            top: 400px;
+            right: 30%;
+            opacity: 0;
+            text-align: center;
+        }
+    }
+    
+    .animate-modal {
+        animation: move-modal 2s forwards;
+    }
+    
+    @keyframes move-modal {
+        from {
+            opacity: 1;
+            width: 10px;
+        }
+        to {
+            opacity: 1;
+            width: 400px;
+        }
+    }
+    
+    .line-animate {
+        animation: expand-line 2s forwards;
+    }
+    
+    .animate-ball-2 {
+        animation: expand-ball-2 2s forwards;
+    }
+    
+    @keyframes expand-ball-2 {
+        from {
+            opacity: 1;
+        }
+        to {
+            ry: 120;
+            rx: 120;
+            transform: translateX(300px);
+        }
+    }
+    
+    .animate-ball-brain {
+        opacity: 0;
+        animation: expand-ball-3 2s forwards;
+        animation-delay: 1s;
+    }
+    
+    @keyframes expand-ball-3 {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    .animate-text-move-create {
+        animation: textmovecreate 2s forwards;
+    }
+    
+    @keyframes textmovecreate {
+        from {
+            top: 0;
+            opacity: 1;
+            text-align: center;
+        }
+        to {
+            width: 300px;
+            top: 400px;
+            right: 40%;
+            opacity: 0;
+            text-align: center;
+        }
+    }
+    
+    .animate-balls-home {
+        animation: hide-balls 2s forwards;
+    }
+    
+    @keyframes hide-balls {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+            display: none;
+        }
+    }
+    
+    .animate-transition-ball {
+        position: absolute;
+        animation: show-transition 2s forwards;
+        opacity: 0;
+        animation-delay: 1s;
+    }
+    
+    @keyframes show-transition {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
