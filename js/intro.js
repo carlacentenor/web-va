@@ -24,7 +24,7 @@ function Particle(x, y) {
     this.vy = (Math.random() - 0.5) * 40;
     this.accX = 0;
     this.accY = 0;
-    this.friction = Math.random() * 0.05 + 0.94;
+    this.friction = Math.random() * 0.01 + 0.94;
 
     this.color = colors[Math.floor(Math.random() * 6)];
 }
@@ -63,7 +63,7 @@ Particle.prototype.render = function() {
 function addClass(x, y) {
     view.style.top = `${y - 60}px`;
     view.style.left = `${x-70}px`;
-
+    console.log(x, y)
 }
 
 function onMouseMove(e) {
@@ -92,7 +92,7 @@ function initScene() {
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    ctx.font = "bold " + (ww / 7) + "px sans-serif";
+    ctx.font = "bold " + (ww / 10) + "px sans-serif";
     ctx.textAlign = "center";
     ctx.fillText(copy.value, ww / 2, wh / 2);
 
@@ -101,9 +101,9 @@ function initScene() {
     ctx.globalCompositeOperation = "screen";
 
     particles = [];
-    for (var i = 0; i < ww; i += Math.round(ww / 150)) {
-        for (var j = 0; j < wh; j += Math.round(ww / 150)) {
-            if (data[((i + j * ww) * 4) + 3] > 150) {
+    for (var i = 0; i < ww; i += Math.round(ww / 180)) {
+        for (var j = 0; j < wh; j += Math.round(ww / 180)) {
+            if (data[((i + j * ww) * 4) + 3] > 180) {
                 particles.push(new Particle(i, j));
             }
         }
