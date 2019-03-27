@@ -206,6 +206,7 @@
     
     .animate-balls-home {
         animation: hide-balls 2s forwards;
+        animation-delay: 2s;
     }
     
     @keyframes hide-balls {
@@ -222,10 +223,29 @@
         position: absolute;
         animation: show-transition 2s forwards;
         opacity: 0;
-        animation-delay: 1s;
+        animation-delay: 2.5s;
     }
     
     @keyframes show-transition {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            transform: rotate(10deg);
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    .animate-innovation {
+        animation: show-innovation 2s forwards;
+        opacity: 0;
+        animation-delay: 3s;
+    }
+    
+    @keyframes show-innovation {
         from {
             opacity: 0;
         }
