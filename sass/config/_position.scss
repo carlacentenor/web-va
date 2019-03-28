@@ -59,6 +59,11 @@
     justify-content: flex-end;
 }
 
+.flex-h-star {
+    @include flex;
+    justify-content: flex-start;
+}
+
 .flex-alternative {
     @include flex;
     align-items: center;
@@ -107,5 +112,12 @@
     padding: 1em 0;
     @media screen and (min-width: 1024px) {
         margin-top: 3em;
+    }
+}
+
+.margin-mobile {
+    margin-top: 2em;
+    @media screen and (min-width: 1024px) {
+        margin-top: 0;
     }
 }

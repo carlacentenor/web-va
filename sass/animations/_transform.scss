@@ -1,37 +1,52 @@
     .animate-text-move {
-        animation: textmove 5s forwards;
+        text-align: right;
+        animation: textmove 1s forwards;
+        animation-delay: 2s;
+        z-index: 99;
+        opacity: 0;
+        color: $blue-va;
+        font-family: $title-font;
+        width: 400px;
     }
     
     @keyframes textmove {
-        from {
+        0% {
             top: 0;
             opacity: 1;
+            color: $blue-va;
         }
-        to {
-            left: 10%;
-            width: 80%;
+        95% {
             top: 400px;
+            color: white;
+        }
+        100% {
             opacity: 0;
-            text-align: center;
         }
     }
     
     .animate-text-move-design {
+        text-align: center;
         animation: textmovedesign 2s forwards;
+        animation-delay: 2s;
+        z-index: 99;
+        opacity: 0;
+        color: $blue-va;
+        font-family: $title-font;
+        width: 90%;
     }
     
     @keyframes textmovedesign {
-        from {
+        0% {
             top: 0;
             opacity: 1;
-            left: 1%;
+            color: $blue-va;
         }
-        to {
-            left: 30%;
-            width: 50%;
+        95% {
             top: 400px;
+            color: white;
+        }
+        100% {
             opacity: 0;
-            text-align: center;
         }
     }
     
@@ -40,7 +55,9 @@
     }
     
     .animate-show-timing {
-        animation: viewtext 5s forwards;
+        animation: viewtext 2s forwards;
+        animation-delay: 1s;
+        opacity: 0;
     }
     
     @keyframes viewtext {
@@ -56,7 +73,7 @@
     }
     
     .animate-bubble-big {
-        animation: move-bubble 5s forwards;
+        animation: move-bubble 2s forwards;
     }
     
     @keyframes move-bubble {
@@ -72,6 +89,7 @@
     
     .animate-ball-bubble {
         animation: move-circle .5s forwards;
+        animation-delay: 2s;
     }
     
     @keyframes move-circle {
@@ -87,12 +105,30 @@
     
     .animate-paint {
         animation: move-paint .5s forwards;
+        animation-delay: 2s;
     }
     
     .animate-splash {
         opacity: 0;
         animation: move-splash 2s forwards;
-        animation-delay: 1s;
+        animation-delay: 2.5s;
+    }
+    
+    .animate-show-text-design {
+        animation: viewtextdesign 2s forwards;
+        animation-delay: 2.5s;
+    }
+    
+    @keyframes viewtextdesign {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
     
     @keyframes move-paint {
@@ -118,19 +154,21 @@
     }
     
     .animate-text-move-developer {
+        width: 300px;
         animation: textmovedeveloper 2s forwards;
     }
     
     @keyframes textmovedeveloper {
         from {
             top: 0;
+            left: 0;
             opacity: 1;
             text-align: center;
         }
         to {
             width: 300px;
             top: 400px;
-            right: 30%;
+            left: -40px;
             opacity: 0;
             text-align: center;
         }
@@ -186,21 +224,20 @@
     }
     
     .animate-text-move-create {
+        width: 200px;
         animation: textmovecreate 2s forwards;
+        left: 80px;
+        text-align: center;
     }
     
     @keyframes textmovecreate {
         from {
             top: 0;
             opacity: 1;
-            text-align: center;
         }
         to {
-            width: 300px;
             top: 400px;
-            right: 40%;
             opacity: 0;
-            text-align: center;
         }
     }
     
@@ -252,4 +289,67 @@
         to {
             opacity: 1;
         }
+    }
+    
+    // Confetti
+    @for $i from 4 through 15 {
+        .cls-#{$i} {
+            animation: open-confeti-#{$i} .5s forwards;
+            @keyframes open-confeti-#{$i} {
+                50% {
+                    transform: translate( (-5px), (-9px));
+                }
+                100% {
+                    transform: translate( (random(200) * -1px), (random(200) * -1px));
+                }
+            }
+        }
+    }
+    
+    .cls-1 {
+        fill: #b9382f;
+    }
+    
+    .cls-3 {
+        fill: #ffe465;
+    }
+    
+    .cls-4 {
+        fill: #5cd89f;
+    }
+    
+    .cls-5 {
+        fill: #e59ca8;
+    }
+    
+    .cls-6 {
+        fill: #5b507a;
+    }
+    
+    .cls-7 {
+        fill: #ffa400;
+    }
+    
+    .cls-8 {
+        fill: #005d68;
+    }
+    
+    .cls-9 {
+        fill: #224364;
+    }
+    
+    .cls-10 {
+        fill: #3e78b2;
+    }
+    
+    .cls-11 {
+        fill: #3ea1b2;
+    }
+    
+    .cls-12 {
+        fill: #4d4d4d;
+    }
+    
+    .cls-14 {
+        fill: #ffe465;
     }
