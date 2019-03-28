@@ -31,10 +31,36 @@
         
         .menu-item-grid {
             display: grid;
-            grid-template-rows: repeat(5, 1fr);
+            grid-template-areas: "home" "work" "services""about" "contact";
             background-color: white;
             grid-gap: 8px;
             height: 85vh;
+            @media screen and (min-width: 1024px) {
+                grid-template-areas: "home home home work work work" "services services about about contact contact";
+                grid-template-rows: repeat(2, 1fr);
+                font-size: 64px;
+                height: 100vh;
+            }
+        }
+        
+        .item-home {
+            grid-area: home;
+        }
+        
+        .item-work {
+            grid-area: work;
+        }
+        
+        .item-services {
+            grid-area: services;
+        }
+        
+        .item-about {
+            grid-area: about;
+        }
+        
+        .item-contact {
+            grid-area: contact;
         }
         
         .grid-social {
