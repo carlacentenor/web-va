@@ -291,7 +291,7 @@
         }
     }
     
-    // Confetti
+    // Confetti 
     @for $i from 4 through 15 {
         .cls-#{$i} {
             animation: open-confeti-#{$i} .5s forwards;
@@ -306,6 +306,7 @@
         }
     }
     
+    // Colors confetti animation
     .cls-1 {
         fill: #b9382f;
     }
