@@ -111,7 +111,7 @@ routeServices.addEventListener('click', () => {
 
 routeHome.addEventListener('click', () => {
     window.location.href = '../views/home.html';
-    setTimeout(function() { translate() }, 500);
+    translate();
 });
 
 translate();
