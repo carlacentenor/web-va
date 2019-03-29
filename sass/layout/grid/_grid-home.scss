@@ -35,6 +35,7 @@
             background-color: white;
             grid-gap: 8px;
             height: 85vh;
+            font-weight: bold;
             @media screen and (min-width: 1024px) {
                 grid-template-areas: "home home home work work work" "services services about about contact contact";
                 grid-template-rows: repeat(2, 1fr);

@@ -20,8 +20,11 @@
 
         <div class="flex-h-end flex-vertical">
             <div class="hide-desktop">
-                <img class="icon-nav relative" src="../assets/images/globo-terraqueo-b.svg" alt="">
-                <span class="body-font-5 text-blue pr-8 pl-8">ENG</span>
+                <div class="btn-translate">
+                    <img class="icon-nav relative" src="../assets/images/globo-terraqueo-b.svg" alt="">
+                    <span class="body-font-5 text-blue pr-8 pl-8">ENG</span>
+                </div>
+
             </div>
             <div class="relative">
                 <button class="hamburger hamburger__border--blue hamburger--collapse open-menu-js" type="button">
@@ -36,7 +39,7 @@
         </div>
     </nav>
     <section class="menu-section expand-js  title-white hide">
-        <div class="menu-item  hide">
+        <div class="content-menu-js  hide">
             <div class="  fixed-desktop menu-close">
                 <nav class="p-16 grid-nav">
                     <div class="flex-vertical">
@@ -52,12 +55,27 @@
                 </nav>
             </div>
             <div class="menu-item-grid">
-                <div class="item-home flex-center bg-blue-va">
+
+                <div class="item-home item-home-js flex-center bg-blue-va">
                     Home</div>
-                <div class="item-work bg-turquoise-va flex-center"> Work</div>
-                <div class=" item-services bg-pink-va flex-center">Services</div>
-                <div class=" item-about bg-blue2-va flex-center">About</div>
-                <div class="item-contact bg-violet-va flex-center">Contact</div>
+
+                <div class="item-work item-work-js bg-turquoise-va flex-center">
+                    <p class="translate-es">Proyectos</p>
+                    <p class="hide translate-en">Project</p>
+                </div>
+
+                <div class=" item-services item-services-js bg-pink-va flex-center">
+                    <p class="translate-es">Nuestro proceso</p>
+                    <p class="hide translate-en">Our process</p>
+                </div>
+                <div class=" item-about item-about-js bg-blue2-va flex-center">
+                    <p class="translate-es">Nosotros</p>
+                    <p class="hide translate-en">About us</p>
+                </div>
+                <div class="item-contact item-contact-js bg-violet-va flex-center">
+                    <p class="translate-es">Contacto</p>
+                    <p class="hide translate-en">Contact</p>
+                </div>
             </div>
 
         </div>
@@ -68,9 +86,10 @@
     <div class="grid-max-w-home grid-max-heigth">
         <div class="p-16 grid-home ">
             <div class="">
-                <p class="title_home-1">Comprendimos que podemos transformar de todo.</p>
-                <p class="body-font-10 text-blue margin-mobile">Impulsados por la Innovación,<br> transformamos la investigación en insight para generar something awesome.</p>
-
+                <p class="title_home-1 translate-es">Comprendimos que podemos transformar de todo.</p>
+                <p class="title_home-1 translate-en hide">WE UNDERSTAND THAT WE CAN TRANSFORM EVERYTHING</p>
+                <p class="body-font-10 text-blue margin-mobile translate-es">Impulsados por la Innovación,<br> transformamos la investigación en insight para generar something awesome.</p>
+                <p class="body-font-10 text-blue margin-mobile translate-en hide">Driven by innovation,<br> we transform research into insights to generate something awesome.</p>
             </div>
             <div class="flex-horizontal-mob relative">
                 <div class="relative flex-center mt-16">
@@ -99,7 +118,7 @@
         </div>
     </div>
 
-    <div class="hide-mobile pl-24">
+    <div class="hide-mobile pl-24 btn-translate-d">
         <img class="icon-nav relative" src="../assets/images/globo-terraqueo-b.svg" alt="">
         <span class="body-font-5 text-blue pr-8 pl-8 ">Change language (ENG)</span>
     </div>

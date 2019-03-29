@@ -16,12 +16,17 @@
         <nav class="p-16 grid-nav  bg-grey">
             <div class="flex-vertical">
                 <img class="logo__img" src="../assets/images/logowhite.svg" alt="">
-                <span class=" pl-16 body-font-4 text-nav">Nuestro Proceso</span>
+                <span class=" pl-16 body-font-4 text-nav translate-es">Nuestro Proceso</span>
+                <span class=" pl-16 body-font-4 text-nav translate-en hide">Our process</span>
             </div>
 
             <div class="flex-h-end flex-vertical">
-                <img class="icon-nav" src="../assets/images/globo-terraqueo.svg" alt="">
-                <span class="body-font-5 text-white pr-8 pl-8">ENG</span>
+                <div class="btn-translate">
+                    <img class="icon-nav relative" src="../assets/images/globo-terraqueo.svg" alt="">
+                    <span class="body-font-5 text-white pr-8 pl-8">ENG</span>
+                    <div class="btn-translate-d hide"></div>
+                </div>
+
                 <button class="hamburger hamburger__border--white hamburger--collapse open-menu-js" type="button">
                 <span class="hamburger-box">
                   <span class="hamburger-inner hamburger-inner--white"></span>
@@ -29,16 +34,62 @@
               </button>
             </div>
         </nav>
+        <!-- Menu -->
+        <section class="menu-section expand-js  title-white hide">
+            <div class="content-menu-js  hide">
+                <div class="  fixed-desktop menu-close">
+                    <nav class="p-16 grid-nav">
+                        <div class="flex-vertical">
+                            <img class="logo__img" src="../assets/images/logowhite.svg" alt="">
+                        </div>
+                        <div class="text-right">
+                            <button class="hamburger-w hamburger-w--collapse close-menu-js is-active" type="button">
+                  <span class="hamburger-w-box">
+                    <span class="hamburger-w-inner"></span>
+                  </span>
+                </button>
+                        </div>
+                    </nav>
+                </div>
+                <div class="menu-item-grid">
 
+                    <div class="item-home item-home-js flex-center bg-blue-va">
+                        Home</div>
+
+                    <div class="item-work item-work-js bg-turquoise-va flex-center">
+                        <p class="translate-es">Proyectos</p>
+                        <p class="hide translate-en">Project</p>
+                    </div>
+
+                    <div class=" item-services item-services-js bg-pink-va flex-center">
+                        <p class="translate-es">Nuestro proceso</p>
+                        <p class="hide translate-en">Our process</p>
+                    </div>
+                    <div class=" item-about item-about-js bg-blue2-va flex-center">
+                        <p class="translate-es">Nosotros</p>
+                        <p class="hide translate-en">About us</p>
+                    </div>
+                    <div class="item-contact item-contact-js bg-violet-va flex-center">
+                        <p class="translate-es">Contacto</p>
+                        <p class="hide translate-en">Contact</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
 
 
         <div class="p-16 ">
-            <h3 class="subtitle-section text-turquoise">Ideamos</h3>
-            <p class="body-font-3 text-grey mt-16">Investigamos y obtenemos insights que nos permiten diseñar propuestas que agreguen valor a tu marca y generen experiencias memorables en tus usuarios. </p>
+            <h3 class="subtitle-section text-turquoise translate-es">Ideamos</h3>
+            <h3 class="subtitle-section text-turquoise translate-en hide">WE IDEATE</h3>
+            <p class="body-font-3 text-grey mt-16 translate-es">Investigamos y obtenemos insights que nos permiten diseñar propuestas que agreguen valor a tu marca y generen experiencias memorables en tus usuarios. </p>
+            <p class="body-font-3 text-grey mt-16 translate-en hide">We research and obtain insights that allow us to design proposals that add value to your brand and generate memorable experiences in your users. </p>
             <div class=" flex-center mt-16">
                 <div class=" width-bubble relative">
                     <img class="img-fluid " src="../assets/images/big-bubble2.svg" alt="">
-                    <p class="absolute text-bubble body-font-w ">Entendemos, ideamos y generamos grandes experiencias.</p>
+                    <p class="absolute text-bubble body-font-w translate-es">Entendemos, ideamos y generamos grandes experiencias.</p>
+                    <p class="absolute text-bubble body-font-w translate-en hide">We understand,<br> create and generate great experiences.</p>
                 </div>
 
             </div>
@@ -48,13 +99,16 @@
             </div>
 
             <div class="mt-16">
-                <h3 class="subtitle-section text-pink">Diseñamos</h3>
-                <p class="body-font-3 text-grey mt-16">Diseñamos y optimizamos al máximo del usuario en cada punto de contacto a través de interfaces amigables e intuitivas.</p>
+                <h3 class="subtitle-section text-pink translate-es">Diseñamos</h3>
+                <h3 class="subtitle-section text-pink translate-en hide">WE DESIGN </h3>
+                <p class="body-font-3 text-grey mt-16 translate-es">Diseñamos y optimizamos al máximo del usuario en cada punto de contacto a través de interfaces amigables e intuitivas.</p>
+                <p class="body-font-3 text-grey mt-16 translate-en hide">We design and optimize user experience to the fullest at each point of contact through friendly and intuitive interfaces.</p>
                 <div class="relative">
                     <div class=" flex-center ">
                         <div class=" width-splash relative">
                             <img class="img-fluid " src="../assets/images/paintsplash.svg" alt="">
-                            <p class="absolute text-splash body-font-w ">No solo debe funcionar bien, debe lucir bien.</p>
+                            <p class="absolute text-splash body-font-w translate-es">No solo debe funcionar bien, debe lucir bien.</p>
+                            <p class="absolute text-splash body-font-w translate-en hide">Not only it must work well, it must look well.</p>
                         </div>
 
                     </div>
@@ -69,13 +123,16 @@
 
             </div>
             <div class="mt-16">
-                <h3 class="subtitle-section text-blue2">Desarrollamos</h3>
-                <p class="body-font-3 text-grey mt-16">Le damos vida al diseño utilizando la innovación para desarrollar soluciones de alta calidad en múlltiples plataformas.</p>
+                <h3 class="subtitle-section text-blue2 translate-es">Desarrollamos</h3>
+                <h3 class="subtitle-section text-blue2 translate-en hide">WE DEVELOP</h3>
+                <p class="body-font-3 text-grey mt-16 translate-es">Le damos vida al diseño utilizando la innovación para desarrollar soluciones de alta calidad en múlltiples plataformas.</p>
+                <p class="body-font-3 text-grey mt-16 translate-en hide">We bring design to life by using innovation to develop high-quality solutions on multiple platforms.</p>
                 <div class="relative mt-32 mb-32">
                     <div class=" flex-center ">
                         <div class=" width-modal relative mt-16 mb-16">
                             <img class="img-fluid " src="../assets/images/modal.png" alt="">
-                            <p class="absolute text-modal  text-blue">Creativos para el diseño y ágiles para el código.</p>
+                            <p class="absolute text-modal  text-blue translate-es">Creativos para el diseño y ágiles para el código.</p>
+                            <p class="absolute text-modal translate-en hide  text-blue">Creative to design and agiles to coding.</p>
                         </div>
 
                     </div>
@@ -89,13 +146,16 @@
 
             </div>
             <div>
-                <h3 class="subtitle-section text-blue">Creamos</h3>
-                <p class="body-font-3 text-grey mt-16">Desde el uso de herramientas y API de terceros hasta la creación de chatbots personalizados, trabajamos grandes cantidades de data para crear plataformas que conecten.</p>
+                <h3 class="subtitle-section text-blue translate-es">Creamos</h3>
+                <h3 class="subtitle-section text-blue translate-en hide">WE CREATE</h3>
+                <p class="body-font-3 text-grey mt-16 translate-es">Desde el uso de herramientas y API de terceros hasta la creación de chatbots personalizados, trabajamos grandes cantidades de data para crear plataformas que conecten.</p>
+                <p class="body-font-3 text-grey mt-16 translate-en hide">From the use of tools and third-party APIs to the creation of personalized chatbots, we work large amounts of data to create platforms that connect.</p>
 
                 <div class=" flex-center mt-32 mb-32">
                     <div class=" width-modal relative">
                         <img class="img-fluid " src="../assets/images/brain.png" alt="">
-                        <p class="absolute text-brain body-font-w ">Cuando la data se transforma en valor para tu marca.</p>
+                        <p class="absolute text-brain body-font-w translate-es">Cuando la data se transforma en valor para tu marca.</p>
+                        <p class="absolute text-brain body-font-w translate-en hide">When the data is transformed into value for your brand.</p>
                     </div>
 
 
@@ -106,9 +166,11 @@
 
             </div>
             <div>
-                <p class="body-font-2 text-blue text-right">¿Tienes un reto para nosotros? <i class="fas fa-arrow-right ml-8"></i>
+                <p class="body-font-2 text-blue text-right translate-es">¿Tienes un reto para nosotros? <i class="fas fa-arrow-right ml-8"></i>
                 </p>
-
+                <p class="body-font-2 text-blue text-right translate-en hide">
+                    Do you have a challenge for us? <i class="fas fa-arrow-right ml-8"></i>
+                </p>
             </div>
         </div>
 
@@ -141,7 +203,7 @@
                     <div class="grid_section--process pl-32 pr-32">
                         <div class="align-particles flex-center">
                             <div>
-                                <div class="cascading-text cascading-text--fade text-turquoise">
+                                <div class="cascading-text cascading-text--fade text-turquoise translate-es">
 
                                     <div class="fadeInAnimated tx--style uno">I</div>
                                     <div class="fadeInAnimated tx--style dos">D</div>
@@ -151,6 +213,18 @@
                                     <div class="fadeInAnimated tx--style seis">O</div>
                                     <div class="fadeInAnimated tx--style siete">S</div>
 
+                                </div>
+                                <div class="cascading-text cascading-text--fade text-turquoise translate-en">
+
+                                    <div class="fadeInAnimated tx--style uno">W</div>
+                                    <div class="fadeInAnimated tx--style dos">E</div>
+                                    <div class="fadeInAnimated tx--style-spaces  text-transparent tres ">-</div>
+                                    <div class="fadeInAnimated tx--style cuatro">I</div>
+                                    <div class="fadeInAnimated tx--style cinco">D</div>
+                                    <div class="fadeInAnimated tx--style seis">E</div>
+                                    <div class="fadeInAnimated tx--style siete">A</div>
+                                    <div class="fadeInAnimated tx--style ocho">T</div>
+                                    <div class="fadeInAnimated tx--style nueve">E</div>
                                 </div>
 
                                 <div class="container animate-desplaza-1">
@@ -382,10 +456,13 @@
 
                         <div class=" relative">
                             <div class="animate-text-move  absolute">
-                                <p class=" f-bold body-font--primary">Entendemos, ideamos y generamos grandes experiencias.
+                                <p class=" f-bold body-font--primary translate-es">Entendemos, ideamos y generamos grandes experiencias.
+                                </p>
+                                <p class=" f-bold body-font--primary translate-en hide">We understand, create and generate great experiences.
                                 </p>
                             </div>
-                            <p class="body-font-3 text-grey mt-16 animate-show-timing">Investigamos y obtenemos insights que nos permiten diseñar propuestas que agreguen valor a tu marca y generen experiencias memorables en tus usuarios. </p>
+                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-es">Investigamos y obtenemos insights que nos permiten diseñar propuestas que agreguen valor a tu marca y generen experiencias memorables en tus usuarios. </p>
+                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-en hide">We research and obtain insights that allow us to design proposals that add value to your brand and generate memorable experiences in your users. </p>
                         </div>
                     </div>
 
@@ -556,7 +633,9 @@
                         <div class=" flex-h-star  ">
                             <div class="  relative animate-bubble-big">
                                 <img class="img-fluid " src="../assets/images/big-bubble.svg" alt="">
-                                <p class="animate-show-timing absolute text-bubble body-font-w ">Entendemos, ideamos y generamos grandes experiencias.
+                                <p class="animate-show-timing absolute text-bubble body-font-w translate-es">Entendemos, ideamos y generamos grandes experiencias.
+                                </p>
+                                <p class="animate-show-timing absolute text-bubble body-font-w translate-en hide">We understand, create and generate great experiences.
                                 </p>
                             </div>
 
@@ -585,7 +664,7 @@
                     <div class="grid_section--process pr-32 pl-32">
                         <div class="align-particles flex-center">
                             <div>
-                                <div class="cascading-text cascading-text--fade text-pink">
+                                <div class="cascading-text cascading-text--fade text-pink translate-es">
 
                                     <div class="fadeInAnimated tx--style uno">D</div>
                                     <div class="fadeInAnimated tx--style dos">I</div>
@@ -596,6 +675,19 @@
                                     <div class="fadeInAnimated tx--style siete">M</div>
                                     <div class="fadeInAnimated tx--style ocho">O</div>
                                     <div class="fadeInAnimated tx--style nueve">S</div>
+
+                                </div>
+                                <div class="cascading-text cascading-text--fade text-pink translate-en hide">
+
+                                    <div class="fadeInAnimated tx--style uno">W</div>
+                                    <div class="fadeInAnimated tx--style dos">E</div>
+                                    <div class="fadeInAnimated tx--style-spaces text-transparent tres">-</div>
+                                    <div class="fadeInAnimated  tx--style cuatro">D</div>
+                                    <div class="fadeInAnimated tx--style cinco">E</div>
+                                    <div class="fadeInAnimated tx--style seis">S</div>
+                                    <div class="fadeInAnimated tx--style siete">I</div>
+                                    <div class="fadeInAnimated tx--style ocho">G</div>
+                                    <div class="fadeInAnimated tx--style nueve">N</div>
 
                                 </div>
 
@@ -827,10 +919,13 @@
                         </div>
                         <div class="relative">
                             <div class="animate-text-move-design flex-center absolute">
-                                <p class="w300 f-bold body-font--primary">No solo debe funcionar bien, debe lucir bien.
+                                <p class="w300 f-bold body-font--primary translate-es">No solo debe funcionar bien, debe lucir bien.
+                                </p>
+                                <p class="w300 f-bold body-font--primary translate-en hide">Not only it must work well, it must look well.
                                 </p>
                             </div>
-                            <p class="body-font-3 text-grey mt-16 animate-show-timing">Diseñamos y optimizamos al máximo del usuario en cada punto de contacto a través de interfaces amigables e intuitivas.</p>
+                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-es">Diseñamos y optimizamos al máximo del usuario en cada punto de contacto a través de interfaces amigables e intuitivas.</p>
+                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-en hide">We design and optimize user experience to the fullest at each point of contact through friendly and intuitive interfaces.</p>
                         </div>
                     </div>
 
@@ -936,7 +1031,9 @@
                                 class="animate-splash"></path>
                             </g>
                           </svg>
-                                <p class="absolute animate-show-text-design  text-splash body-font-w ">No solo debe funcionar bien, debe lucir bien.
+                                <p class="absolute animate-show-text-design  text-splash body-font-w translate-es">No solo debe funcionar bien, debe lucir bien.
+                                </p>
+                                <p class="absolute animate-show-text-design  text-splash body-font-w translate-en hide">Not only it must work well, it must look well.
                                 </p>
                             </div>
 
@@ -969,7 +1066,7 @@
                     <div class="grid_section--developer pr-32 pl-32">
                         <div class="align-particles flex-center">
                             <div>
-                                <div class="cascading-text cascading-text--fade text-blue2">
+                                <div class="cascading-text cascading-text--fade text-blue2 translate-es">
 
                                     <div class="fadeInAnimated tx--style uno">D</div>
                                     <div class="fadeInAnimated tx--style dos">E</div>
@@ -984,6 +1081,23 @@
                                     <div class="fadeInAnimated tx--style once">M</div>
                                     <div class="fadeInAnimated tx--style doce">O</div>
                                     <div class="fadeInAnimated tx--style trece">S</div>
+
+                                </div>
+                                <div class="cascading-text cascading-text--fade text-blue2 translate-en hide">
+
+                                    <div class="fadeInAnimated tx--style uno">W</div>
+                                    <div class="fadeInAnimated tx--style dos">E</div>
+                                    <div class="fadeInAnimated tx--style-spaces text-transparent tres">-</div>
+                                    <div class="fadeInAnimated tx--style cuatro">D</div>
+                                    <div class="fadeInAnimated tx--style cinco">E</div>
+                                    <div class="fadeInAnimated tx--style seis">V</div>
+                                    <div class="fadeInAnimated tx--style siete">E</div>
+                                    <div class="fadeInAnimated tx--style ocho">L</div>
+                                    <div class="fadeInAnimated tx--style nueve">O</div>
+                                    <div class="fadeInAnimated tx--style diez">P</div>
+                                    <div class="fadeInAnimated tx--style once">E</div>
+                                    <div class="fadeInAnimated tx--style doce">R</div>
+
 
                                 </div>
 
@@ -1215,10 +1329,13 @@
                         </div>
                         <div class="relative">
                             <div class="animate-text-move-developer  absolute">
-                                <p class=" text-blue body-font-w f-bold body-font--primary">Creativos para el diseño y ágiles para el código.
+                                <p class=" text-blue body-font-w f-bold body-font--primary translate-es">Creativos para el diseño y ágiles para el código.
+                                </p>
+                                <p class=" text-blue body-font-w f-bold body-font--primary translate-en hide">Creative to design and agiles to coding.
                                 </p>
                             </div>
-                            <p class="body-font-3 text-grey mt-16 animate-show-timing">Investigamos y obtenemos insights que nos permiten diseñar propuestas que agreguen valor a tu marca y generen experiencias memorables en tus usuarios. </p>
+                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-es">Investigamos y obtenemos insights que nos permiten diseñar propuestas que agreguen valor a tu marca y generen experiencias memorables en tus usuarios. </p>
+                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-en hide">We bring design to life by using innovation to develop high-quality solutions on multiple platforms. </p>
                         </div>
                     </div>
 
@@ -1229,7 +1346,9 @@
                         <div class=" flex-center ">
                             <div class="  relative mt-16 mb-16">
                                 <img class="img-modal animate-modal" src="../assets/images/modal.svg" alt="">
-                                <p class="absolute text-modal animate-show-text text-blue">Creativos para el diseño y ágiles para el código.
+                                <p class="absolute text-modal animate-show-text text-blue translate-es">Creativos para el diseño y ágiles para el código.
+                                </p>
+                                <p class="absolute text-modal animate-show-text text-blue translate-en hide">Creative to design and agiles to coding.
                                 </p>
                             </div>
 
@@ -1271,7 +1390,7 @@
                     <div class="grid_section--process pr-32 pl-32">
                         <div class="align-particles flex-center">
                             <div>
-                                <div class="cascading-text cascading-text--fade text-blue">
+                                <div class="cascading-text cascading-text--fade text-blue translate-es">
 
                                     <div class="fadeInAnimated tx--style uno">C</div>
                                     <div class="fadeInAnimated tx--style dos">R</div>
@@ -1281,6 +1400,18 @@
                                     <div class="fadeInAnimated tx--style seis">O</div>
                                     <div class="fadeInAnimated tx--style siete">S</div>
 
+                                </div>
+                                <div class="cascading-text cascading-text--fade text-blue translate-en hide">
+
+                                    <div class="fadeInAnimated tx--style uno">W</div>
+                                    <div class="fadeInAnimated tx--style dos">E</div>
+                                    <div class="fadeInAnimated tx--style-spaces text-transparent tres">-</div>
+                                    <div class="fadeInAnimated tx--style cuatro">C</div>
+                                    <div class="fadeInAnimated tx--style cinco">R</div>
+                                    <div class="fadeInAnimated tx--style seis">E</div>
+                                    <div class="fadeInAnimated tx--style siete">A</div>
+                                    <div class="fadeInAnimated tx--style ocho">T</div>
+                                    <div class="fadeInAnimated tx--style nueve">E</div>
                                 </div>
 
                                 <div class="container animate-desplaza-1">
@@ -1512,12 +1643,13 @@
                         <div class="relative">
 
                             <div class="animate-text-move-create  absolute">
-                                <p class=" text-blue body-font-w f-bold body-font--primary">Cuando la data se
-                                    <tspan x="-8.21" y="27.5">
-                                        transforma en valor.
+                                <p class=" text-blue body-font-w f-bold body-font--primary translate-es">Cuando la data se transforma en valor.
+                                </p>
+                                <p class=" text-blue body-font-w f-bold body-font--primary translate-en hide">When the data is transformed into value for your brand.
                                 </p>
                             </div>
-                            <p class="body-font-3 text-grey mt-16 animate-show-timing">Investigamos y obtenemos insights que nos permiten diseñar propuestas que agreguen valor a tu marca y generen experiencias memorables en tus usuarios. </p>
+                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-es">Desde el uso de herramientas y API de terceros hasta la creación de chatbots personalizados, trabajamos grandes cantidades de data para crear plataformas que conecten.</p>
+                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-en hide">From the use of tools and third-party APIs to the creation of personalized chatbots, we work large amounts of data to create platforms that connect. </p>
                         </div>
                     </div>
 
@@ -1629,11 +1761,16 @@
                         <g id="brian-cell">
                           <ellipse id="Oval-Copy-6" class="cls-8b animate-ball-brain " cx="589.72" cy="182.33" rx="168.5"
                             ry="164.5" />
-                        </g><text class="cls-9b animate-show-text" transform="translate(480.87 159.92)">Cuando la data se <tspan
+                        </g><text class="cls-9b animate-show-text translate-es" transform="translate(480.87 159.92)">Cuando la data se <tspan
                             x="-8.21" y="27.5">
                             transforma en valor</tspan>
                           <tspan x="20.71" y="55" xml:space="preserve"> para tu marca.</tspan>
                         </text>
+                        <text class="cls-9b animate-show-text translate-en hide" transform="translate(480.87 159.92)">When the data is <tspan
+                          x="-15.21" y="27.5">  
+                          transformed into value </tspan>
+                        <tspan x="20.71" y="55" xml:space="preserve"> for your brand.</tspan>
+                      </text>
                       </svg>
                     </div>
 
@@ -1646,7 +1783,7 @@
 
 
 </body>
-
+<script src="../js/app.js"></script>
 <script src="../js/accordion.js"></script>
 
 </html>
