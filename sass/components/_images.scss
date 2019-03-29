@@ -32,6 +32,13 @@
         }
     }
     
+    .img-balls-2 {
+        width: 60%;
+        @media screen and (min-width: 1024px) {
+            max-width: 410px;
+        }
+    }
+    
     // Bubble Big
     .width-bubble {
         width: 260px;
