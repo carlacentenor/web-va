@@ -9,8 +9,8 @@ canvas {
     height: 100px;
     line-height: 40px;
     position: absolute;
-    bottom: 50%;
-    left: 50%;
+    bottom: 28%;
+    left: 30%;
     background: none;
     color: #224364;
     font-size: 16px;
@@ -19,6 +19,10 @@ canvas {
     animation-name: view;
     animation-duration: 10s;
     animation-timing-function: linear;
+    @media screen and (min-width: 1024px) {
+        bottom: 50%;
+        left: 50%;
+    }
 }
 
 @keyframes view {
