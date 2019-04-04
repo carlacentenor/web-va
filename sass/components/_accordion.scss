@@ -152,9 +152,12 @@
 
 .align-particles {
     width: 100%;
-    height: 300px;
+    height: 200px;
     display: flex;
     align-items: center;
+    @media screen and (min-height:900px) {
+        height: 300px;
+    }
 }
 
 @keyframes fadeIn {
@@ -228,6 +231,8 @@
     font-size: 42px;
     font-weight: bold;
     letter-spacing: 15.5px;
+
+
 }
 
 .tx--style-spaces {
@@ -246,8 +251,39 @@
     font-weight: bold;
     letter-spacing: 15.5px;
     text-align: center;
+    @media screen and (max-height:768px) {
+        font-size: 32px;
+    }
 }
 
 .container-h {
     height: 100vh;
 }
+
+
+
+.dimension-paint{
+    width:485px;
+    height:421px;
+    @media screen and (min-height:900px){
+        width:485px;
+        height:471px;        
+    }
+
+}
+
+.dimension-splash{
+    width:552px;
+    height:421px;
+    @media screen and (min-height:900px){
+        width:552px;
+        height:471px;        
+    }
+}
+
+.cls-9b {
+    font-size: 22.92px;
+    fill: #fff;
+    font-family: $title-font;
+    font-weight: 700;
+  }

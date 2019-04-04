@@ -33,6 +33,11 @@
         color: $blue-va;
         font-family: $title-font;
         width: 90%;
+        @media screen and (max-height:768px) {
+           
+            padding-left: 2.5em;
+            
+        }
     }
     
     @keyframes textmovedesign {
@@ -44,12 +49,32 @@
         95% {
             top: 400px;
             color: white;
+         @media screen and (max-height:768px) {
+            top: 300px; 
+         }
         }
         100% {
             opacity: 0;
         }
     }
     
+
+    @keyframes textmovedesignres {
+        0% {
+            top: 0;
+            opacity: 1;
+            color: $blue-va;
+        }
+        95% {
+            top: 300px;
+            color: white;
+       
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
     .animate-show-text {
         animation: viewtext 2s forwards;
     }

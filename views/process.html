@@ -12,74 +12,76 @@
 </head>
 
 <body class="body-acc">
+  <div class="fixed-desktop">
+      <nav class="p-16 grid-nav nav-process  ">
+          <div class="flex-vertical">
+              <img class="logo__img logo-white" src="../assets/images/logowhite.svg" alt="logo">
+              <img class="logo__img logo-tur hide" src="../assets/images/logoturquoise.svg" alt="logo">
+              <span class=" pl-16 body-font-4 hide-desktop text-nav translate-es">Nuestro Proceso</span>
+              
+          </div>
+
+          <div class="flex-h-end flex-vertical">
+              <div class="btn-translate hide-desktop">
+                  <img class="icon-nav relative" src="../assets/images/globo-terraqueo.svg" alt="">
+                  <span class="body-font-5 text-white pr-8 pl-8">ENG</span>
+                  <div class="btn-translate-d hide"></div>
+              </div>
+
+              <button class="hamburger hamburger__border--only-w  hamburger--collapse open-menu-js change-color-b" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner hamburger-inner-only-white  change-color-l"></span>
+              </span>
+            </button>
+          </div>
+      </nav>
+  </div>
+    <!-- Menu -->
+    <section class="menu-section expand-js  title-white hide">
+        <div class="content-menu-js  hide">
+            <div class="  fixed-desktop menu-close">
+                <nav class="p-16 grid-nav">
+                    <div class="flex-vertical">
+                        <img class="logo__img" src="../assets/images/logowhite.svg" alt="">
+                    </div>
+                    <div class="text-right">
+                        <button class="hamburger-w hamburger-w--collapse close-menu-js is-active" type="button">
+              <span class="hamburger-w-box">
+                <span class="hamburger-w-inner"></span>
+              </span>
+            </button>
+                    </div>
+                </nav>
+            </div>
+            <div class="menu-item-grid">
+
+                <div class="item-home item-home-js flex-center bg-blue-va">
+                    Home</div>
+
+                <div class="item-work item-work-js bg-turquoise-va flex-center">
+                    <p class="translate-es">Proyectos</p>
+                    <p class="hide translate-en">Project</p>
+                </div>
+
+                <div class=" item-services item-services-js bg-pink-va flex-center">
+                    <p class="translate-es">Nuestro<br> proceso</p>
+                    <p class="hide translate-en">Our process</p>
+                </div>
+                <div class=" item-about item-about-js bg-blue2-va flex-center">
+                    <p class="translate-es">Nosotros</p>
+                    <p class="hide translate-en">About us</p>
+                </div>
+                <div class="item-contact item-contact-js bg-violet-va flex-center">
+                    <p class="translate-es">Contacto</p>
+                    <p class="hide translate-en">Contact</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
     <div class="hide-desktop">
-        <nav class="p-16 grid-nav  bg-grey">
-            <div class="flex-vertical">
-                <img class="logo__img" src="../assets/images/logowhite.svg" alt="">
-                <span class=" pl-16 body-font-4 text-nav translate-es">Nuestro Proceso</span>
-                <span class=" pl-16 body-font-4 text-nav translate-en hide">Our process</span>
-            </div>
-
-            <div class="flex-h-end flex-vertical">
-                <div class="btn-translate">
-                    <img class="icon-nav relative" src="../assets/images/globo-terraqueo.svg" alt="">
-                    <span class="body-font-5 text-white pr-8 pl-8">ENG</span>
-                    <div class="btn-translate-d hide"></div>
-                </div>
-
-                <button class="hamburger hamburger__border--white hamburger--collapse open-menu-js" type="button">
-                <span class="hamburger-box">
-                  <span class="hamburger-inner hamburger-inner--white"></span>
-                </span>
-              </button>
-            </div>
-        </nav>
-        <!-- Menu -->
-        <section class="menu-section expand-js  title-white hide">
-            <div class="content-menu-js  hide">
-                <div class="  fixed-desktop menu-close">
-                    <nav class="p-16 grid-nav">
-                        <div class="flex-vertical">
-                            <img class="logo__img" src="../assets/images/logowhite.svg" alt="">
-                        </div>
-                        <div class="text-right">
-                            <button class="hamburger-w hamburger-w--collapse close-menu-js is-active" type="button">
-                  <span class="hamburger-w-box">
-                    <span class="hamburger-w-inner"></span>
-                  </span>
-                </button>
-                        </div>
-                    </nav>
-                </div>
-                <div class="menu-item-grid">
-
-                    <div class="item-home item-home-js flex-center bg-blue-va">
-                        Home</div>
-
-                    <div class="item-work item-work-js bg-turquoise-va flex-center">
-                        <p class="translate-es">Proyectos</p>
-                        <p class="hide translate-en">Project</p>
-                    </div>
-
-                    <div class=" item-services item-services-js bg-pink-va flex-center">
-                        <p class="translate-es">Nuestro<br> proceso</p>
-                        <p class="hide translate-en">Our process</p>
-                    </div>
-                    <div class=" item-about item-about-js bg-blue2-va flex-center">
-                        <p class="translate-es">Nosotros</p>
-                        <p class="hide translate-en">About us</p>
-                    </div>
-                    <div class="item-contact item-contact-js bg-violet-va flex-center">
-                        <p class="translate-es">Contacto</p>
-                        <p class="hide translate-en">Contact</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
-
-
+        
         <div class="p-16 ">
             <h3 class="subtitle-section text-turquoise translate-es">Ideamos</h3>
             <h3 class="subtitle-section text-turquoise translate-en hide">WE IDEATE</h3>
@@ -176,6 +178,7 @@
 
     </div>
     <div class="hide-mobile">
+        
         <div class="accordion">
             <div class="item item-1 bg-turquoise-va" data-value="1">
 
@@ -208,18 +211,7 @@
                                     <div class="fadeInAnimated tx--style siete">S</div>
 
                                 </div>
-                                <div class="cascading-text cascading-text--fade text-turquoise translate-en">
-
-                                    <div class="fadeInAnimated tx--style uno">W</div>
-                                    <div class="fadeInAnimated tx--style dos">E</div>
-                                    <div class="fadeInAnimated tx--style-spaces  text-transparent tres ">-</div>
-                                    <div class="fadeInAnimated tx--style cuatro">I</div>
-                                    <div class="fadeInAnimated tx--style cinco">D</div>
-                                    <div class="fadeInAnimated tx--style seis">E</div>
-                                    <div class="fadeInAnimated tx--style siete">A</div>
-                                    <div class="fadeInAnimated tx--style ocho">T</div>
-                                    <div class="fadeInAnimated tx--style nueve">E</div>
-                                </div>
+                             
 
                                 <div class="container animate-desplaza-1">
                                     <div class="bubble-wrap bubble-turquoise">
@@ -452,185 +444,23 @@
                             <div class="animate-text-move  absolute">
                                 <p class=" f-bold body-font--primary translate-es">Entendemos, ideamos y generamos grandes experiencias.
                                 </p>
-                                <p class=" f-bold body-font--primary translate-en hide">We understand, create and generate great experiences.
-                                </p>
+                                
                             </div>
                             <p class="body-font-3 text-grey mt-16 animate-show-timing translate-es">Investigamos y obtenemos insights que nos permiten diseñar propuestas que agreguen valor a tu marca y generen experiencias memorables en tus usuarios. </p>
-                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-en hide">We research and obtain insights that allow us to design proposals that add value to your brand and generate memorable experiences in your users. </p>
-                        </div>
+                            </div>
                     </div>
 
                     <div class="grid_section--process relative">
-                        <div>
-                            <!-- <img class="img-bubble" src="../assets/images/thinker-bubbles.svg" alt=""> -->
-                            <svg width="100%" height="471px" viewBox="0 0 485 471" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                          <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-                          <title>thinker-bubbles</title>
-                          <desc>Created with Sketch.</desc>
-                          <defs>
-                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-                              <stop stop-color="#3EA1B2" offset="0%"></stop>
-                              <stop stop-color="#5B507A" offset="100%"></stop>
-                            </linearGradient>
-                            <linearGradient x1="50%" y1="0%" x2="50%" y2="98.7014358%" id="linearGradient-2">
-                              <stop stop-color="#5B507A" offset="0%"></stop>
-                              <stop stop-color="#3EA1B2" offset="100%"></stop>
-                            </linearGradient>
-                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
-                              <stop stop-color="#5B507A" offset="0%"></stop>
-                              <stop stop-color="#3EA1B2" offset="98.7014358%"></stop>
-                            </linearGradient>
-                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
-                              <stop stop-color="#5B507A" offset="0%"></stop>
-                              <stop stop-color="#3EA1B2" offset="98.7014358%"></stop>
-                            </linearGradient>
-                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
-                              <stop stop-color="#5B507A" offset="0%"></stop>
-                              <stop stop-color="#3EA1B2" offset="98.7014358%"></stop>
-                            </linearGradient>
-                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
-                              <stop stop-color="#5B507A" offset="0%"></stop>
-                              <stop stop-color="#3EA1B2" offset="98.7014358%"></stop>
-                            </linearGradient>
-                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
-                              <stop stop-color="#5B507A" offset="0%"></stop>
-                              <stop stop-color="#3EA1B2" offset="98.7014358%"></stop>
-                            </linearGradient>
-                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
-                              <stop stop-color="#5B507A" offset="0%"></stop>
-                              <stop stop-color="#3EA1B2" offset="98.7014358%"></stop>
-                            </linearGradient>
-                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
-                              <stop stop-color="#5B507A" offset="0%"></stop>
-                              <stop stop-color="#3EA1B2" offset="98.7014358%"></stop>
-                            </linearGradient>
-                          </defs>
-                          <g id="thinker-bubbles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                            <g id="person-copy" transform="translate(11.000000, 228.000000)">
-                              <path
-                                d="M13,236.331035 C21.6337795,200.958995 37.9528929,177.923247 61.9573401,167.223793 C61.6164011,167.037107 61.6164011,134.406187 61.9573401,69.3310347 L141.388613,69.3310347 L150.345783,129.494839 L137.994264,129.494839 L137.994264,167.223793 C160.240535,175.18296 177.575781,198.218708 190,236.331035 C189.623964,236.124346 130.623964,236.124346 13,236.331035 Z"
-                                id="Path-4" fill="url(#linearGradient-1)"></path>
-                              <path
-                                d="M98,90.8310347 C101.357127,85.7221078 107.268287,82.3310347 114,82.3310347 C120.731713,82.3310347 126.642873,85.7221078 130,90.8310347 C126.642873,95.9399617 120.731713,99.3310347 114,99.3310347 C107.268287,99.3310347 101.357127,95.9399617 98,90.8310347 Z"
-                                id="Combined-Shape" fill="#FFFFFF"></path>
-                              <circle id="Oval" fill="#3EA1B2" cx="114" cy="91.3310347" r="5"></circle>
-                              <path
-                                d="M12.0361991,4.29347826 C32.4532417,4.29347826 49.0045249,20.8248772 49.0045249,41.2173913 C49.0045249,61.6099054 32.4532417,78.1413043 12.0361991,78.1413043 L12.0361991,4.29347826 Z"
-                                id="Combined-Shape" fill="#3EA1B2"
-                                transform="translate(30.520362, 41.217391) scale(-1, 1) rotate(21.000000) translate(-30.520362, -41.217391) ">
-                              </path>
-                            </g>
-                            <g id="bubbles-thinker-copy" transform="translate(97.000000, 7.000000)">
-                              <ellipse id="Oval" fill="#5B507A"
-                                transform="translate(119.633480, 150.599287) rotate(14.000000) translate(-119.633480, -150.599287) "
-                                cx="119.63348" cy="150.599287" rx="25.7522592" ry="25.7529652"></ellipse>
-                              <ellipse id="Oval-Copy-203" fill="#5B507A"
-                                transform="translate(250.825559, 197.465578) rotate(14.000000) translate(-250.825559, -197.465578) "
-                                cx="250.825559" cy="197.465578" rx="11.5885166" ry="12.0180504"></ellipse>
-                              <ellipse id="Oval-Copy-213" fill="#5B507A"
-                                transform="translate(180.718213, 118.497722) rotate(14.000000) translate(-180.718213, -118.497722) "
-                                cx="180.718213" cy="118.497722" rx="12.017721" ry="11.5888344"></ellipse>
-                              <ellipse id="Oval-Copy-201" fill="url(#linearGradient-2)"
-                                transform="translate(90.094326, 189.239223) rotate(14.000000) translate(-90.094326, -189.239223) "
-                                cx="90.0943258" cy="189.239223" rx="11.5885166" ry="12.0180504"></ellipse>
-                              <ellipse class="animate-ball-bubble" id="Oval-Copy-216" fill="#5B507A"
-                                transform="translate(332.318328, 195.090092) rotate(14.000000) translate(-332.318328, -195.090092) "
-                                cx="332.318328" cy="195.090092" rx="45.4956579" ry="47.6634246"></ellipse>
-                              <ellipse id="Oval-Copy-238" fill="#5B507A"
-                                transform="translate(49.132068, 106.921717) rotate(14.000000) translate(-49.132068, -106.921717) "
-                                cx="49.1320683" cy="106.921717" rx="25.7522592" ry="27.0406135"></ellipse>
-                              <ellipse id="Oval-Copy-204" fill="#5B507A"
-                                transform="translate(241.999692, 232.865298) rotate(14.000000) translate(-241.999692, -232.865298) "
-                                cx="241.999692" cy="232.865298" rx="11.5885166" ry="11.5888344"></ellipse>
-                              <ellipse id="Oval-Copy-239" fill="#5B507A"
-                                transform="translate(128.317454, 55.446027) rotate(14.000000) translate(-128.317454, -55.446027) "
-                                cx="128.317454" cy="55.4460265" rx="45.4956579" ry="45.4969053"></ellipse>
-                              <ellipse id="Oval-Copy-214" fill="#5B507A"
-                                transform="translate(171.996179, 153.480975) rotate(14.000000) translate(-171.996179, -153.480975) "
-                                cx="171.996179" cy="153.480975" rx="12.017721" ry="11.5888344"></ellipse>
-                              <ellipse id="Oval-Copy-237" fill="#5B507A"
-                                transform="translate(233.936209, 156.981206) rotate(14.000000) translate(-233.936209, -156.981206) "
-                                cx="233.936209" cy="156.981206" rx="26.6106678" ry="25.7529652"></ellipse>
-                              <ellipse id="Oval-Copy-197" fill="#3EA1B2"
-                                transform="translate(11.554331, 273.610232) rotate(14.000000) translate(-11.554331, -273.610232) "
-                                cx="11.5543314" cy="273.610232" rx="9.01329072" ry="9.01353784"></ellipse>
-                              <ellipse id="Oval-Copy-205" fill="url(#linearGradient-3)"
-                                transform="translate(195.996597, 245.282347) rotate(14.000000) translate(-195.996597, -245.282347) "
-                                cx="195.996597" cy="245.282347" rx="13.7345382" ry="14.1641309"></ellipse>
-                              <ellipse id="Oval-Copy-210" fill="#3EA1B2"
-                                transform="translate(74.714619, 231.409614) rotate(14.000000) translate(-74.714619, -231.409614) "
-                                cx="74.7146195" cy="231.409614" rx="17.1681728" ry="17.1686435"></ellipse>
-                              <ellipse id="Oval-Copy-217" fill="#3EA1B2"
-                                transform="translate(45.669667, 274.053809) rotate(14.000000) translate(-45.669667, -274.053809) "
-                                cx="45.6696665" cy="274.053809" rx="9.01329072" ry="9.01353784"></ellipse>
-                              <ellipse id="Oval-Copy-198" fill="#3EA1B2"
-                                transform="translate(13.724765, 248.937063) rotate(14.000000) translate(-13.724765, -248.937063) "
-                                cx="13.724765" cy="248.937063" rx="6.00886048" ry="6.00902522"></ellipse>
-                              <ellipse id="Oval-Copy-221" fill="#3EA1B2"
-                                transform="translate(74.647119, 266.119511) rotate(14.000000) translate(-74.647119, -266.119511) "
-                                cx="74.6471189" cy="266.119511" rx="6.00886048" ry="6.00902522"></ellipse>
-                              <ellipse id="Oval-Copy-206" fill="url(#linearGradient-4)"
-                                transform="translate(170.052444, 207.406212) rotate(14.000000) translate(-170.052444, -207.406212) "
-                                cx="170.052444" cy="207.406212" rx="6.00886048" ry="6.00902522"></ellipse>
-                              <ellipse id="Oval-Copy-211" fill="url(#linearGradient-5)"
-                                transform="translate(118.413222, 196.300136) rotate(14.000000) translate(-118.413222, -196.300136) "
-                                cx="118.413222" cy="196.300136" rx="6.4380648" ry="6.00902522"></ellipse>
-                              <ellipse id="Oval-Copy-218" fill="#3EA1B2"
-                                transform="translate(145.308671, 256.973656) rotate(14.000000) translate(-145.308671, -256.973656) "
-                                cx="145.308671" cy="256.973656" rx="9.44249504" ry="9.44275392"></ellipse>
-                              <ellipse id="Oval-Copy-202" fill="url(#linearGradient-6)"
-                                transform="translate(35.427135, 163.665106) rotate(14.000000) translate(-35.427135, -163.665106) "
-                                cx="35.4271349" cy="163.665106" rx="9.01329072" ry="9.01353784"></ellipse>
-                              <ellipse id="Oval-Copy-207" fill="url(#linearGradient-6)"
-                                transform="translate(152.449691, 191.073585) rotate(14.000000) translate(-152.449691, -191.073585) "
-                                cx="152.449691" cy="191.073585" rx="9.01329072" ry="9.01353784"></ellipse>
-                              <ellipse id="Oval-Copy-212" fill="url(#linearGradient-7)"
-                                transform="translate(52.106578, 201.443000) rotate(14.000000) translate(-52.106578, -201.443000) "
-                                cx="52.1065783" cy="201.443" rx="9.44249504" ry="9.01353784"></ellipse>
-                              <ellipse id="Oval-Copy-243" fill="url(#linearGradient-7)"
-                                transform="translate(17.747414, 190.221892) rotate(14.000000) translate(-17.747414, -190.221892) "
-                                cx="17.7474145" cy="190.221892" rx="9.44249504" ry="9.01353784"></ellipse>
-                              <ellipse id="Oval-Copy-219" fill="#3EA1B2"
-                                transform="translate(104.603336, 251.690286) rotate(14.000000) translate(-104.603336, -251.690286) "
-                                cx="104.603336" cy="251.690286" rx="9.01329072" ry="9.01353784"></ellipse>
-                              <ellipse id="Oval-Copy-199" fill="#3EA1B2"
-                                transform="translate(43.390142, 245.274783) rotate(14.000000) translate(-43.390142, -245.274783) "
-                                cx="43.3901418" cy="245.274783" rx="9.01329072" ry="9.01353784"></ellipse>
-                              <ellipse id="Oval-Copy-244" fill="#3EA1B2"
-                                transform="translate(24.012141, 220.094744) rotate(14.000000) translate(-24.012141, -220.094744) "
-                                cx="24.0121407" cy="220.094744" rx="9.01329072" ry="9.01353784"></ellipse>
-                              <ellipse id="Oval-Copy-208" fill="#5B507A"
-                                transform="translate(194.397673, 186.050230) rotate(14.000000) translate(-194.397673, -186.050230) "
-                                cx="194.397673" cy="186.05023" rx="9.01329072" ry="9.44275392"></ellipse>
-                              <ellipse id="Oval-Copy-246" fill="url(#linearGradient-8)"
-                                transform="translate(161.530241, 229.168588) rotate(14.000000) translate(-161.530241, -229.168588) "
-                                cx="161.530241" cy="229.168588" rx="9.01329072" ry="9.44275392"></ellipse>
-                              <ellipse id="Oval-Copy-200" fill="url(#linearGradient-8)"
-                                transform="translate(71.343805, 168.639204) rotate(14.000000) translate(-71.343805, -168.639204) "
-                                cx="71.3438047" cy="168.639204" rx="9.01329072" ry="9.44275392"></ellipse>
-                              <ellipse id="Oval-Copy-220" fill="url(#linearGradient-9)"
-                                transform="translate(127.904630, 225.650445) rotate(14.000000) translate(-127.904630, -225.650445) "
-                                cx="127.90463" cy="225.650445" rx="14.1637426" ry="14.1641309"></ellipse>
-                              <ellipse id="Oval-Copy-209" fill="#5B507A"
-                                transform="translate(223.249171, 212.265280) rotate(14.000000) translate(-223.249171, -212.265280) "
-                                cx="223.249171" cy="212.26528" rx="9.01329072" ry="9.01353784"></ellipse>
-                              <ellipse id="Oval-Copy-241" fill="#5B507A"
-                                transform="translate(218.860874, 49.795575) rotate(14.000000) translate(-218.860874, -49.795575) "
-                                cx="218.860874" cy="49.795575" rx="20.172603" ry="20.1731561"></ellipse>
-                              <ellipse id="Oval-Copy-215" fill="#5B507A"
-                                transform="translate(241.293852, 104.405848) rotate(14.000000) translate(-241.293852, -104.405848) "
-                                cx="241.293852" cy="104.405848" rx="20.172603" ry="20.1731561"></ellipse>
-                            </g>
-                          </g>
-                        </svg>
+                        <div class="svg-box">
+                            <img class="img-bubble" src="../assets/images/thinker-bubbles.svg" alt="">
+                           
                         </div>
                         <div class=" flex-h-star  ">
                             <div class="  relative animate-bubble-big">
                                 <img class="img-fluid " src="../assets/images/big-bubble.svg" alt="">
                                 <p class="animate-show-timing absolute text-bubble body-font-w translate-es">Entendemos, ideamos y generamos grandes experiencias.
                                 </p>
-                                <p class="animate-show-timing absolute text-bubble body-font-w translate-en hide">We understand, create and generate great experiences.
-                                </p>
+                                
                             </div>
 
                         </div>
@@ -671,19 +501,7 @@
                                     <div class="fadeInAnimated tx--style nueve">S</div>
 
                                 </div>
-                                <div class="cascading-text cascading-text--fade text-pink translate-en hide">
-
-                                    <div class="fadeInAnimated tx--style uno">W</div>
-                                    <div class="fadeInAnimated tx--style dos">E</div>
-                                    <div class="fadeInAnimated tx--style-spaces text-transparent tres">-</div>
-                                    <div class="fadeInAnimated  tx--style cuatro">D</div>
-                                    <div class="fadeInAnimated tx--style cinco">E</div>
-                                    <div class="fadeInAnimated tx--style seis">S</div>
-                                    <div class="fadeInAnimated tx--style siete">I</div>
-                                    <div class="fadeInAnimated tx--style ocho">G</div>
-                                    <div class="fadeInAnimated tx--style nueve">N</div>
-
-                                </div>
+                           
 
                                 <div class="container animate-desplaza-2">
                                     <div class="bubble-wrap bubble-pink">
@@ -915,17 +733,16 @@
                             <div class="animate-text-move-design flex-center absolute">
                                 <p class="w300 f-bold body-font--primary translate-es">No solo debe funcionar bien, debe lucir bien.
                                 </p>
-                                <p class="w300 f-bold body-font--primary translate-en hide">Not only it must work well, it must look well.
-                                </p>
+                                
                             </div>
                             <p class="body-font-3 text-grey mt-16 animate-show-timing translate-es">Diseñamos y optimizamos al máximo del usuario en cada punto de contacto a través de interfaces amigables e intuitivas.</p>
-                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-en hide">We design and optimize user experience to the fullest at each point of contact through friendly and intuitive interfaces.</p>
+                            
                         </div>
                     </div>
 
                     <div class="grid_section--process">
                         <div class="relative ">
-                            <svg width="485px" height="471px" viewBox="0 0 485 471" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg class="dimension-paint" width="485px" height="471px" viewBox="0 0 485 471" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                           <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
                           <title>painting</title>
                           <desc>Created with Sketch.</desc>
@@ -1003,7 +820,7 @@
                         <div class=" flex-h-star ">
                             <div class="  relative ">
 
-                                <svg width="552px" height="471px" viewBox="0 0 552 471" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <svg class="dimension-splash" width="552px" height="471px" viewBox="0 0 552 471" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
                             <title>paint splash</title>x
                             <desc>Created with Sketch.</desc>
@@ -1077,23 +894,7 @@
                                     <div class="fadeInAnimated tx--style trece">S</div>
 
                                 </div>
-                                <div class="cascading-text cascading-text--fade text-blue2 translate-en hide">
-
-                                    <div class="fadeInAnimated tx--style uno">W</div>
-                                    <div class="fadeInAnimated tx--style dos">E</div>
-                                    <div class="fadeInAnimated tx--style-spaces text-transparent tres">-</div>
-                                    <div class="fadeInAnimated tx--style cuatro">D</div>
-                                    <div class="fadeInAnimated tx--style cinco">E</div>
-                                    <div class="fadeInAnimated tx--style seis">V</div>
-                                    <div class="fadeInAnimated tx--style siete">E</div>
-                                    <div class="fadeInAnimated tx--style ocho">L</div>
-                                    <div class="fadeInAnimated tx--style nueve">O</div>
-                                    <div class="fadeInAnimated tx--style diez">P</div>
-                                    <div class="fadeInAnimated tx--style once">E</div>
-                                    <div class="fadeInAnimated tx--style doce">R</div>
-
-
-                                </div>
+                            
 
                                 <div class="container animate-desplaza-3">
                                     <div class="bubble-wrap bubble-blue2">
@@ -1325,11 +1126,10 @@
                             <div class="animate-text-move-developer  absolute">
                                 <p class=" text-blue body-font-w f-bold body-font--primary translate-es">Creativos para el diseño y ágiles para el código.
                                 </p>
-                                <p class=" text-blue body-font-w f-bold body-font--primary translate-en hide">Creative to design and agiles to coding.
-                                </p>
+                                
                             </div>
                             <p class="body-font-3 text-grey mt-16 animate-show-timing translate-es">Investigamos y obtenemos insights que nos permiten diseñar propuestas que agreguen valor a tu marca y generen experiencias memorables en tus usuarios. </p>
-                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-en hide">We bring design to life by using innovation to develop high-quality solutions on multiple platforms. </p>
+                            
                         </div>
                     </div>
 
@@ -1342,8 +1142,7 @@
                                 <img class="img-modal animate-modal" src="../assets/images/modal.svg" alt="">
                                 <p class="absolute text-modal animate-show-text text-blue translate-es">Creativos para el diseño y ágiles para el código.
                                 </p>
-                                <p class="absolute text-modal animate-show-text text-blue translate-en hide">Creative to design and agiles to coding.
-                                </p>
+                               
                             </div>
 
                         </div>
@@ -1353,13 +1152,7 @@
                 </div>
             </div>
             <div class="item item-4 bg-blue-va" data-value="1">
-                <div class="align-nav-menu-js flex-h-end w25 absolute pt-8 pr-32">
-                    <button class="hamburger hamburger__border--only-w  hamburger--collapse open-menu-js" type="button">
-                      <span class="hamburger-box">
-                        <span class=" hamburger-inner hamburger-inner-only-white "></span>
-                      </span>
-                    </button>
-                </div>
+                
                 <div class="flex-center container-h title4-section-js">
                     <div class="tx-vertical text-white">
 
@@ -1389,18 +1182,7 @@
                                     <div class="fadeInAnimated tx--style siete">S</div>
 
                                 </div>
-                                <div class="cascading-text cascading-text--fade text-blue translate-en hide">
 
-                                    <div class="fadeInAnimated tx--style uno">W</div>
-                                    <div class="fadeInAnimated tx--style dos">E</div>
-                                    <div class="fadeInAnimated tx--style-spaces text-transparent tres">-</div>
-                                    <div class="fadeInAnimated tx--style cuatro">C</div>
-                                    <div class="fadeInAnimated tx--style cinco">R</div>
-                                    <div class="fadeInAnimated tx--style seis">E</div>
-                                    <div class="fadeInAnimated tx--style siete">A</div>
-                                    <div class="fadeInAnimated tx--style ocho">T</div>
-                                    <div class="fadeInAnimated tx--style nueve">E</div>
-                                </div>
 
                                 <div class="container animate-desplaza-1">
                                     <div class="bubble-wrap bubble-blue">
@@ -1633,11 +1415,10 @@
                             <div class="animate-text-move-create  absolute">
                                 <p class=" text-blue body-font-w f-bold body-font--primary translate-es">Cuando la data se transforma en valor.
                                 </p>
-                                <p class=" text-blue body-font-w f-bold body-font--primary translate-en hide">When the data is transformed into value for your brand.
-                                </p>
+                                
                             </div>
                             <p class="body-font-3 text-grey mt-16 animate-show-timing translate-es">Desde el uso de herramientas y API de terceros hasta la creación de chatbots personalizados, trabajamos grandes cantidades de data para crear plataformas que conecten.</p>
-                            <p class="body-font-3 text-grey mt-16 animate-show-timing translate-en hide">From the use of tools and third-party APIs to the creation of personalized chatbots, we work large amounts of data to create platforms that connect. </p>
+                            
                         </div>
                     </div>
 
@@ -1685,12 +1466,7 @@
                               fill: url(#Degradado_sin_nombre_5-6);
                             }
             
-                            .cls-9b {
-                              font-size: 22.92px;
-                              fill: #fff;
-                              font-family: LucidaGrande-Bold, Lucida Grande;
-                              font-weight: 700;
-                            }
+                            
             
                           </style>
                           <linearGradient id="Degradado_sin_nombre_5" x1="-45.59" y1="1081.06" x2="-45.59" y2="1080.06"
@@ -1754,11 +1530,7 @@
                             transforma en valor</tspan>
                           <tspan x="20.71" y="55" xml:space="preserve"> para tu marca.</tspan>
                         </text>
-                        <text class="cls-9b animate-show-text translate-en hide" transform="translate(480.87 159.92)">When the data is <tspan
-                          x="-15.21" y="27.5">  
-                          transformed into value </tspan>
-                        <tspan x="20.71" y="55" xml:space="preserve"> for your brand.</tspan>
-                      </text>
+                       
                       </svg>
                     </div>
 
