@@ -1,145 +1,168 @@
     /* Images */
-    
+
     .logo__img {
-        width: 40px;
-        height: auto;
-        @media screen and (min-width: 1024px) {
-            width: 60px;
-        }
+      width: 40px;
+      height: auto;
+
+      @media screen and (min-width: 1024px) {
+        width: 60px;
+      }
     }
-    
+
     .change_color--wb {
-        fill: white;
-        @media screen and (min-width: 1024px) {
-            fill: $blue-va;
-        }
+      fill: white;
+
+      @media screen and (min-width: 1024px) {
+        fill: $blue-va;
+      }
     }
-    
+
     .icon-nav {
-        width: 20px;
-        top: 5px;
+      width: 20px;
+      top: 5px;
     }
-    
+
     // Image responsive
     .img-fluid {
-        width: 100%;
+      width: 100%;
     }
-    
+
     .img-balls {
-        width: 75%;
-        @media screen and (min-width: 1024px) {
-            max-width: 410px;
-        }
+      width: 75%;
+
+      @media screen and (min-width: 1024px) {
+        max-width: 410px;
+      }
     }
-    
+
     .img-balls-2 {
-        width: 60%;
-        @media screen and (min-width: 1024px) {
-            max-width: 410px;
-        }
+      width: 60%;
+
+      @media screen and (min-width: 1024px) {
+        max-width: 410px;
+      }
     }
-    
+
     // Bubble Big
     .width-bubble {
-        width: 260px;
+      width: 260px;
     }
-    
+
     .width-bubble-img {
-        width: 230px;
+      width: 230px;
     }
-    
+
     .width-splash {
-        width: 290px;
+      width: 290px;
     }
-    
+
     .width-modal {
-        width: 220px;
+      width: 220px;
     }
-    
+
     .circle-shadow {
-        width: 200px;
-        height: 39px;
-        -webkit-filter: blur(5px);
-        filter: blur(5px);
-        background-color: rgba(34, 67, 100, 0.1);
-        border-radius: 50%;
+      width: 200px;
+      height: 39px;
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+      background-color: rgba(34, 67, 100, 0.1);
+      border-radius: 50%;
     }
-    
+
     .circle-shadow-icon {
-        width: 134px;
-        height: 16px;
-        -webkit-filter: blur(5px);
-        filter: blur(5px);
-        background-color: rgba(34, 67, 100, 0.1);
-        border-radius: 50%;
+      width: 134px;
+      height: 16px;
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+      background-color: rgba(34, 67, 100, 0.1);
+      border-radius: 50%;
     }
-    
+
     .iphone-shadow {
-        border-radius: 50%;
-        width: 245px;
-        height: 39px;
-        -webkit-filter: blur(5px);
-        filter: blur(5px);
-        background-color: rgba(34, 67, 100, 0.1);
-        z-index: 9;
+      border-radius: 50%;
+      width: 245px;
+      height: 39px;
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+      background-color: rgba(34, 67, 100, 0.1);
+      z-index: 9;
     }
-    
+
     .img-project {
-        width: 160px;
-        @media screen and (min-width: 1024px) {
-            width: 238px;
-            z-index: 9;
-        }
+      width: 160px;
+
+  
+        width: 238px;
+        z-index: 9;
+      
     }
-    
+
     .logo-pj {
-        width: 300px;
-        position: absolute;
-        z-index: 1;
-        left: 10px;
-        opacity: 0.37;
-        transition: 1s linear;
+      width: 300px;
+      position: absolute;
+      z-index: 1;
+      left: 10px;
+      opacity: 0.37;
+      transition: 1s linear;
     }
-    
+
     .img-project:hover+.logo-pj {
-        left: 250px;
-        opacity: 1;
+      left: 250px;
+      opacity: 1;
     }
-    
+
     .paint {
-        top: -44px;
-        left: -22px;
+      top: -44px;
+      left: -22px;
     }
-    
+
     .laptop {
-        top: -70px;
+      top: -70px;
     }
-    
+
     .img-brain {
-        width: 60%;
+      width: 60%;
     }
-    
+
     .position-brain {
-        top: -53px;
-        left: 5%;
+      top: -53px;
+      left: 5%;
     }
-    
+
     .img-bubble {
-        width: 475px;
+      width: 475px;
     }
-    
+
     .img-laptop {
-        width: 475px;
+      width: 475px;
     }
-    
+
     .img-modal {
-        width: 400px;
+      width: 400px;
     }
-    
+
     .img-brain {
-        width: 775px;
+      width: 775px;
     }
-    
+
     .img-confeti {
-        width: 275px;
+      width: 275px;
     }
+// Video
+    .video-1 {
+
+      width: 209px;
+      left: 15px;
+      top: 16px;
+      position: absolute;
+      z-index: 99;
+      border-radius: 20px;
+     
+    }
+.mobile-img{
+    background-image: url("../assets/images/iPhone.svg");
+    background-position: center;
+    height: 486px;
+    background-repeat: no-repeat;
+   
+}
