@@ -268,7 +268,7 @@
             text-align: center;
         }
         to {
-            top: 370px;
+            top: 330px;
             text-align: center;
             opacity: 1;
             color: white;
@@ -741,3 +741,11 @@
     animation-timing-function: cubic-bezier(0, 0, 1, 1);
   }
   
+  .move-svg{
+    top: -45px;
+  }
+
+  .move-text{
+    bottom: 25px;
+    right: 25px;
+  }
