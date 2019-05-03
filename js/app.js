@@ -19,12 +19,12 @@ const btnTranslateDesktop = document.querySelector('.btn-translate-d');
 
 
 
-menuOpen.addEventListener("click", () => {
-    expandMenu.classList.add('menu-section-expand');
-    expandMenu.classList.remove('hide');
-    viewOption();
+// menuOpen.addEventListener("click", () => {
+//     expandMenu.classList.add('menu-section-expand');
+//     expandMenu.classList.remove('hide');
+//     viewOption();
 
-});
+// });
 
 // menuOpenAcordion.addEventListener("click", () => {
 //     expandMenuAcordion.classList.add('menu-section-expand');
@@ -33,11 +33,11 @@ menuOpen.addEventListener("click", () => {
 
 // });
 
-menuClose.addEventListener("click", () => {
-    expandMenu.classList.remove('menu-section-expand');
-    expandMenu.classList.add('hide');
-    hideOption();
-})
+// menuClose.addEventListener("click", () => {
+//     expandMenu.classList.remove('menu-section-expand');
+//     expandMenu.classList.add('hide');
+//     hideOption();
+// })
 
 
 // menuCloseAcordion.addEventListener("click", () => {

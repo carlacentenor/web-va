@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/modernizr.js"></script> 
     <title>Document</title>
 </head>
 
@@ -30,58 +32,49 @@
                   <div class="btn-translate-d hide"></div>
               </div>
 
-              <button class="hamburger hamburger__border--only-w  hamburger--collapse open-menu-js change-color-b" type="button">
-              <span class="hamburger-box">
-                <span class="hamburger-inner hamburger-inner-only-white  change-color-l"></span>
-              </span>
-            </button>
+              <div class="relative">
+                <a href="#0" class="cd-nav-trigger white-border-nav change-color-b">Menu<span class="cd-icon"></span></a>
+             
+            </div>
           </div>
       </nav>
   </div>
-    <!-- Menu -->
-    <section class="menu-section expand-js  title-white hide">
-        <div class="content-menu-js  hide">
-            <div class="  fixed-desktop menu-close">
-                <nav class="p-16 grid-nav">
-                    <div class="flex-vertical">
-                        <img class="logo__img" src="../assets/images/logowhite.svg" alt="">
-                    </div>
-                    <div class="text-right">
-                        <button class="hamburger-w hamburger-w--collapse close-menu-js is-active" type="button">
-              <span class="hamburger-w-box">
-                <span class="hamburger-w-inner"></span>
-              </span>
-            </button>
-                    </div>
-                </nav>
-            </div>
-            <div class="menu-item-grid">
+   <!-- Section Menu Options -->
+   <section>
+	
+    <div class="menu-item-grid cd-primary-nav title-white">
 
-                <div class="item-home item-home-js flex-center bg-blue-va">
-                    Home</div>
+      <div class="item-home item-home-js flex-center bg-blue-va cursor-link">
+        Home</div>
 
-                <div class="item-work item-work-js bg-turquoise-va flex-center">
-                    <p class="translate-es">Proyectos</p>
-                    <p class="hide translate-en">Project</p>
-                </div>
+      <div class="item-work item-work-js bg-turquoise-va flex-center cursor-link">
+        <p class="translate-es">Proyectos</p>
+      
+      </div>
 
-                <div class=" item-services item-services-js bg-pink-va flex-center">
-                    <p class="translate-es">Nuestro<br> proceso</p>
-                    <p class="hide translate-en">Our process</p>
-                </div>
-                <div class=" item-about item-about-js bg-blue2-va flex-center">
-                    <p class="translate-es">Nosotros</p>
-                    <p class="hide translate-en">About us</p>
-                </div>
-                <div class="item-contact item-contact-js bg-violet-va flex-center">
-                    <p class="translate-es">Contacto</p>
-                    <p class="hide translate-en">Contact</p>
-                </div>
-            </div>
-
-        </div>
-
+      <div class=" item-services item-services-js bg-pink-va flex-center cursor-link">
+        <p class="translate-es">Nuestro<br> proceso</p>
+    
+      </div>
+      <div class=" item-about item-about-js bg-blue2-va flex-center cursor-link">
+        <p class="translate-es">Nosotros</p>
+        
+      </div>
+      <div class="item-contact item-contact-js bg-violet-va flex-center cursor-link">
+        <p class="translate-es">Contacto</p>
+  
+      </div>
+    </div>
     </section>
+   
+    <div class="cd-overlay-nav">
+    <span></span>
+  </div> <!-- cd-overlay-nav -->
+
+  <div class="cd-overlay-content">
+    <span></span>
+  </div> <!-- cd-overlay-content -->
+
     <div class="hide-desktop">
         
         <div class="p-16 ">
@@ -122,8 +115,6 @@
                     </div>
 
                 </div>
-
-
 
             </div>
             <div class="mt-16">
@@ -1547,5 +1538,8 @@
 </body>
 <script src="../js/app.js"></script>
 <script src="../js/accordion.js"></script>
+<script src="../js/jquery-2.1.1.js"></script>
+<script src="../js/velocity.min.js"></script>
+<script src="../js/main.js"></script>
 
 </html>

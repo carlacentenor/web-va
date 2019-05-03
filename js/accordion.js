@@ -200,13 +200,11 @@ const toggle = element => {
 };
 
 const changeColorNavBarIconsOpen = () => {
-  changeColorNavBorder.classList.remove('hamburger__border--only-w');
-  changeColorNavBorder.classList.add('hamburger__border--blue');
-  changeColorNavLines.classList.remove('hamburger-inner-only-white');
+  changeColorNavBorder.classList.remove('white-border-nav');
+ 
 };
 
 const changeColorNavBarIconsClose = () => {
-  changeColorNavBorder.classList.add('hamburger__border--only-w');
-  changeColorNavBorder.classList.remove('hamburger__border--blue');
-  changeColorNavLines.classList.add('hamburger-inner-only-white');
+  changeColorNavBorder.classList.add('white-border-nav');
+ 
 }
