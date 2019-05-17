@@ -1,5 +1,5 @@
     .animate-text-move {
-      text-align: right;
+ 
       animation: textmove 2s forwards;
       animation-delay: 2s;
       z-index: 99;
@@ -200,6 +200,8 @@
     .animate-text-move-developer {
       width: 300px;
       animation: textmovedeveloper 2s forwards;
+      z-index: 3;
+      color: $blue-va;
     }
 
     @keyframes textmovedeveloper {
@@ -208,13 +210,15 @@
         left: 0;
         opacity: 1;
         text-align: center;
+        
       }
 
       to {
         width: 300px;
-        top: 400px;
+        top: 355px;
         left: -40px;
-        opacity: 0;
+        opacity: 1;
+   
         text-align: center;
       }
     }
@@ -418,4 +422,9 @@
 
     .cls-14 {
       fill: #ffe465;
+    }
+
+    .move-laptop{
+        width: 100%;
+        top: -125px;
     }

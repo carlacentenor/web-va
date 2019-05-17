@@ -1035,7 +1035,6 @@ canvas {
 }
 
 .animate-text-move {
-  text-align: right;
   animation: textmove 2s forwards;
   animation-delay: 2s;
   z-index: 99;
@@ -1210,6 +1209,8 @@ canvas {
 .animate-text-move-developer {
   width: 300px;
   animation: textmovedeveloper 2s forwards;
+  z-index: 3;
+  color: #224364;
 }
 
 @keyframes textmovedeveloper {
@@ -1221,9 +1222,9 @@ canvas {
   }
   to {
     width: 300px;
-    top: 400px;
+    top: 355px;
     left: -40px;
-    opacity: 0;
+    opacity: 1;
     text-align: center;
   }
 }
@@ -1355,7 +1356,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-83px, -172px);
+    transform: translate(-40px, -157px);
   }
 }
 
@@ -1367,7 +1368,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-80px, -61px);
+    transform: translate(-194px, -108px);
   }
 }
 
@@ -1379,7 +1380,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-191px, -111px);
+    transform: translate(-135px, -13px);
   }
 }
 
@@ -1391,7 +1392,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-101px, -24px);
+    transform: translate(-52px, -39px);
   }
 }
 
@@ -1403,7 +1404,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-126px, -64px);
+    transform: translate(-68px, -158px);
   }
 }
 
@@ -1415,7 +1416,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-166px, -116px);
+    transform: translate(-63px, -35px);
   }
 }
 
@@ -1427,7 +1428,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-199px, -4px);
+    transform: translate(-91px, -175px);
   }
 }
 
@@ -1439,7 +1440,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-116px, -100px);
+    transform: translate(-25px, -123px);
   }
 }
 
@@ -1451,7 +1452,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-179px, -55px);
+    transform: translate(-138px, -25px);
   }
 }
 
@@ -1463,7 +1464,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-157px, -1px);
+    transform: translate(-191px, -51px);
   }
 }
 
@@ -1475,7 +1476,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-140px, -145px);
+    transform: translate(-134px, -16px);
   }
 }
 
@@ -1487,7 +1488,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-12px, -4px);
+    transform: translate(-182px, -183px);
   }
 }
 
@@ -1537,6 +1538,11 @@ canvas {
 
 .cls-14 {
   fill: #ffe465;
+}
+
+.move-laptop {
+  width: 100%;
+  top: -125px;
 }
 
 @-webkit-keyframes kf_el_eRMG6rF3_pL_an_oeqEPsv_m {
@@ -1840,6 +1846,151 @@ canvas {
 .move-text {
   bottom: 25px;
   right: 25px;
+}
+
+@-webkit-keyframes kf_el_dU1Bw0m8_lB_an_h8taezBzH {
+  0% {
+    -webkit-transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+  }
+  25% {
+    -webkit-transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+  }
+  100% {
+    -webkit-transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+  }
+}
+@keyframes kf_el_dU1Bw0m8_lB_an_h8taezBzH {
+  0% {
+    -webkit-transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+  }
+  25% {
+    -webkit-transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+  }
+  100% {
+    -webkit-transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+  }
+}
+@-webkit-keyframes kf_el_dU1Bw0m8_lB_an_sUMHTXkFb {
+  0% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+  }
+  25% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+  }
+}
+@keyframes kf_el_dU1Bw0m8_lB_an_sUMHTXkFb {
+  0% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+  }
+  25% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+  }
+}
+#el_KOlENIZzQ * {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+  animation-timing-function: cubic-bezier(0, 0, 1, 1);
+  animation-fill-mode: forwards;
+}
+
+#el_h_hIQ_eRb6 {
+  stroke: none;
+  stroke-width: 1;
+  fill: none;
+}
+
+#el_kt-PX6dA8E {
+  -webkit-transform: translate(75px, 237px);
+  transform: translate(75px, 237px);
+}
+
+#el_wrk6DzSeJi {
+  fill: #3E78B2;
+}
+
+#el_Ywc3S8lY7S {
+  fill: #EFEFEF;
+}
+
+#el_nWmFgZPreM {
+  fill: #224364;
+}
+
+#el_cxmoI9uvD5 {
+  fill: #3E78B2;
+}
+
+#el_kb0yLkG0fb {
+  -webkit-transform: translate(149px, 304px);
+  transform: translate(149px, 304px);
+  fill: #5CD89F;
+  fill-opacity: 0.15;
+}
+
+#el_dxW8vdjX9Mu {
+  fill: #FFFFFF;
+}
+
+#el_dU1Bw0m8_lB {
+  -webkit-transform: translate(541px, 149px);
+  transform: translate(600px, 149px);
+}
+
+#el_0pwmEIxD5zC {
+  fill: #F2F2F2;
+}
+
+#el_xZ1xogWroKv {
+  fill: #C5CFD6;
+}
+
+#el_THt37vwg9Qg {
+  -webkit-transform: translate(404px, 12px);
+  transform: translate(404px, 12px);
+  fill: #FFFFFF;
+}
+
+#el_dU1Bw0m8_lB_an_sUMHTXkFb {
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+  transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+  -webkit-animation-name: kf_el_dU1Bw0m8_lB_an_sUMHTXkFb;
+  animation-name: kf_el_dU1Bw0m8_lB_an_sUMHTXkFb;
+  -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+  animation-timing-function: cubic-bezier(0, 0, 1, 1);
+}
+
+#el_dU1Bw0m8_lB_an_h8taezBzH {
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+  transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+  -webkit-animation-name: kf_el_dU1Bw0m8_lB_an_h8taezBzH;
+  animation-name: kf_el_dU1Bw0m8_lB_an_h8taezBzH;
+  -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+  animation-timing-function: cubic-bezier(0, 0, 1, 1);
 }
 
 @-webkit-keyframes kf_el_JPdxmGbnmK_an_PHVqzrXam {
@@ -3825,7 +3976,6 @@ canvas {
 }
 
 #el_X-hBpJYxLx {
-  fill: #3ea1b2;
   -webkit-transform: translate(48.4572980702px, -16.1745764502px) rotate(14deg);
   transform: translate(48.4572980702px, -16.1745764502px) rotate(14deg);
 }
@@ -3873,7 +4023,6 @@ canvas {
 }
 
 #el_MaSMHJOljG {
-  fill: #3ea1b2;
   -webkit-transform: translate(65.1611069089px, -40.1299343034px) rotate(14deg);
   transform: translate(65.1611069089px, -40.1299343034px) rotate(14deg);
 }
@@ -3921,13 +4070,11 @@ canvas {
 }
 
 #el_tjBOhny30PU {
-  fill: #3ea1b2;
   -webkit-transform: translate(40.6465100023px, -3.7090465478px) rotate(14deg);
   transform: translate(40.6465100023px, -3.7090465478px) rotate(14deg);
 }
 
 #el_Fl2cCWcUUFB {
-  fill: #3ea1b2;
   -webkit-transform: translate(50.7532912323px, -31.2052161609px) rotate(14deg);
   transform: translate(50.7532912323px, -31.2052161609px) rotate(14deg);
 }
@@ -3969,19 +4116,16 @@ canvas {
 }
 
 #el_tI8TeUSkayh {
-  fill: #3ea1b2;
   -webkit-transform: translate(60.2390377137px, -32.2704156335px) rotate(14deg);
   transform: translate(60.2390377137px, -32.2704156335px) rotate(14deg);
 }
 
 #el_Wb5-Voh3uUQ {
-  fill: #3ea1b2;
   -webkit-transform: translate(42.9167318161px, -12.2503234694px) rotate(14deg);
   transform: translate(42.9167318161px, -12.2503234694px) rotate(14deg);
 }
 
 #el_6DVJVuo5GT7 {
-  fill: #3ea1b2;
   -webkit-transform: translate(58.389097537px, -24.2401479623px) rotate(14deg);
   transform: translate(58.389097537px, -24.2401479623px) rotate(14deg);
 }
@@ -4007,10 +4151,6 @@ canvas {
 #el_tQXxwWqcX3b {
   -webkit-transform: translate(24px, 258px);
   transform: translate(24px, 258px);
-}
-
-#el_-34u5yC9lKZ {
-  fill: #3ea1b2;
 }
 
 #el_FofnyTTdLOM {
@@ -4773,6 +4913,151 @@ canvas {
   animation-timing-function: cubic-bezier(0, 0, 1, 1);
 }
 
+@-webkit-keyframes kf_el_dU1Bw0m8_lB_an_h8taezBzH {
+  0% {
+    -webkit-transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+  }
+  25% {
+    -webkit-transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+  }
+  100% {
+    -webkit-transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+  }
+}
+@keyframes kf_el_dU1Bw0m8_lB_an_h8taezBzH {
+  0% {
+    -webkit-transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+  }
+  25% {
+    -webkit-transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+  }
+  100% {
+    -webkit-transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+    transform: translate(541px, 431px) scale(1, 1) translate(-541px, -431px);
+  }
+}
+@-webkit-keyframes kf_el_dU1Bw0m8_lB_an_sUMHTXkFb {
+  0% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+  }
+  25% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+  }
+}
+@keyframes kf_el_dU1Bw0m8_lB_an_sUMHTXkFb {
+  0% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+  }
+  25% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+    transform: translate(541px, 431px) translate(-541px, -431px) translate(0px, 0px);
+  }
+}
+#el_KOlENIZzQ * {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+  animation-timing-function: cubic-bezier(0, 0, 1, 1);
+  animation-fill-mode: forwards;
+}
+
+#el_h_hIQ_eRb6 {
+  stroke: none;
+  stroke-width: 1;
+  fill: none;
+}
+
+#el_kt-PX6dA8E {
+  -webkit-transform: translate(75px, 237px);
+  transform: translate(75px, 237px);
+}
+
+#el_wrk6DzSeJi {
+  fill: #3E78B2;
+}
+
+#el_Ywc3S8lY7S {
+  fill: #EFEFEF;
+}
+
+#el_nWmFgZPreM {
+  fill: #224364;
+}
+
+#el_cxmoI9uvD5 {
+  fill: #3E78B2;
+}
+
+#el_kb0yLkG0fb {
+  -webkit-transform: translate(149px, 304px);
+  transform: translate(149px, 304px);
+  fill: #5CD89F;
+  fill-opacity: 0.15;
+}
+
+#el_dxW8vdjX9Mu {
+  fill: #FFFFFF;
+}
+
+#el_dU1Bw0m8_lB {
+  -webkit-transform: translate(541px, 149px);
+  transform: translate(600px, 149px);
+}
+
+#el_0pwmEIxD5zC {
+  fill: #F2F2F2;
+}
+
+#el_xZ1xogWroKv {
+  fill: #C5CFD6;
+}
+
+#el_THt37vwg9Qg {
+  -webkit-transform: translate(404px, 12px);
+  transform: translate(404px, 12px);
+  fill: #FFFFFF;
+}
+
+#el_dU1Bw0m8_lB_an_sUMHTXkFb {
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+  transform: translate(541px, 431px) translate(-541px, -431px) translate(-400px, 58px);
+  -webkit-animation-name: kf_el_dU1Bw0m8_lB_an_sUMHTXkFb;
+  animation-name: kf_el_dU1Bw0m8_lB_an_sUMHTXkFb;
+  -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+  animation-timing-function: cubic-bezier(0, 0, 1, 1);
+}
+
+#el_dU1Bw0m8_lB_an_h8taezBzH {
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+  transform: translate(541px, 431px) scale(0, 0) translate(-541px, -431px);
+  -webkit-animation-name: kf_el_dU1Bw0m8_lB_an_h8taezBzH;
+  animation-name: kf_el_dU1Bw0m8_lB_an_h8taezBzH;
+  -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+  animation-timing-function: cubic-bezier(0, 0, 1, 1);
+}
+
 .btn {
   width: 230px;
   height: 50px;
@@ -5369,703 +5654,703 @@ canvas {
 }
 
 .bubble:nth-child(1) {
-  height: 3px;
-  width: 3px;
+  height: 10px;
+  width: 10px;
   animation-delay: -0.2s;
-  transform: translate(385px, -662px);
+  transform: translate(238px, -2117px);
 }
 
 .bubble:nth-child(2) {
-  height: 7px;
-  width: 7px;
+  height: 9px;
+  width: 9px;
   animation-delay: -0.4s;
-  transform: translate(1983px, -2819px);
+  transform: translate(1492px, -689px);
 }
 
 .bubble:nth-child(3) {
-  height: 5px;
-  width: 5px;
+  height: 1px;
+  width: 1px;
   animation-delay: -0.6s;
-  transform: translate(1739px, -2474px);
+  transform: translate(210px, -402px);
 }
 
 .bubble:nth-child(4) {
-  height: 3px;
-  width: 3px;
+  height: 2px;
+  width: 2px;
   animation-delay: -0.8s;
-  transform: translate(1707px, -2971px);
+  transform: translate(1674px, -1405px);
 }
 
 .bubble:nth-child(5) {
   height: 8px;
   width: 8px;
   animation-delay: -1s;
-  transform: translate(1357px, -388px);
+  transform: translate(1808px, -758px);
 }
 
 .bubble:nth-child(6) {
-  height: 9px;
-  width: 9px;
+  height: 2px;
+  width: 2px;
   animation-delay: -1.2s;
-  transform: translate(1414px, -346px);
+  transform: translate(1363px, -1957px);
 }
 
 .bubble:nth-child(7) {
-  height: 8px;
-  width: 8px;
+  height: 6px;
+  width: 6px;
   animation-delay: -1.4s;
-  transform: translate(1618px, -2650px);
+  transform: translate(1021px, -2966px);
 }
 
 .bubble:nth-child(8) {
-  height: 2px;
-  width: 2px;
+  height: 9px;
+  width: 9px;
   animation-delay: -1.6s;
-  transform: translate(1445px, -236px);
+  transform: translate(465px, -161px);
 }
 
 .bubble:nth-child(9) {
-  height: 5px;
-  width: 5px;
+  height: 4px;
+  width: 4px;
   animation-delay: -1.8s;
-  transform: translate(183px, -545px);
+  transform: translate(1848px, -600px);
 }
 
 .bubble:nth-child(10) {
-  height: 3px;
-  width: 3px;
+  height: 1px;
+  width: 1px;
   animation-delay: -2s;
-  transform: translate(471px, -1638px);
+  transform: translate(169px, -682px);
 }
 
 .bubble:nth-child(11) {
-  height: 4px;
-  width: 4px;
+  height: 3px;
+  width: 3px;
   animation-delay: -2.2s;
-  transform: translate(35px, -1593px);
+  transform: translate(1377px, -1529px);
 }
 
 .bubble:nth-child(12) {
-  height: 9px;
-  width: 9px;
+  height: 1px;
+  width: 1px;
   animation-delay: -2.4s;
-  transform: translate(1324px, -1933px);
+  transform: translate(530px, -2412px);
 }
 
 .bubble:nth-child(13) {
-  height: 6px;
-  width: 6px;
+  height: 5px;
+  width: 5px;
   animation-delay: -2.6s;
-  transform: translate(1406px, -2788px);
+  transform: translate(1329px, -2186px);
 }
 
 .bubble:nth-child(14) {
-  height: 10px;
-  width: 10px;
+  height: 7px;
+  width: 7px;
   animation-delay: -2.8s;
-  transform: translate(1121px, -2314px);
+  transform: translate(753px, -2191px);
 }
 
 .bubble:nth-child(15) {
-  height: 1px;
-  width: 1px;
+  height: 3px;
+  width: 3px;
   animation-delay: -3s;
-  transform: translate(1184px, -1243px);
+  transform: translate(565px, -637px);
 }
 
 .bubble:nth-child(16) {
-  height: 5px;
-  width: 5px;
+  height: 9px;
+  width: 9px;
   animation-delay: -3.2s;
-  transform: translate(267px, -1922px);
+  transform: translate(1440px, -1819px);
 }
 
 .bubble:nth-child(17) {
-  height: 6px;
-  width: 6px;
+  height: 5px;
+  width: 5px;
   animation-delay: -3.4s;
-  transform: translate(1539px, -1166px);
+  transform: translate(968px, -1214px);
 }
 
 .bubble:nth-child(18) {
-  height: 7px;
-  width: 7px;
+  height: 6px;
+  width: 6px;
   animation-delay: -3.6s;
-  transform: translate(1311px, -208px);
+  transform: translate(1461px, -1556px);
 }
 
 .bubble:nth-child(19) {
-  height: 5px;
-  width: 5px;
+  height: 10px;
+  width: 10px;
   animation-delay: -3.8s;
-  transform: translate(128px, -2394px);
+  transform: translate(1930px, -327px);
 }
 
 .bubble:nth-child(20) {
-  height: 3px;
-  width: 3px;
+  height: 2px;
+  width: 2px;
   animation-delay: -4s;
-  transform: translate(795px, -1296px);
+  transform: translate(1872px, -2375px);
 }
 
 .bubble:nth-child(21) {
-  height: 6px;
-  width: 6px;
+  height: 8px;
+  width: 8px;
   animation-delay: -4.2s;
-  transform: translate(970px, -637px);
+  transform: translate(13px, -1272px);
 }
 
 .bubble:nth-child(22) {
-  height: 1px;
-  width: 1px;
+  height: 5px;
+  width: 5px;
   animation-delay: -4.4s;
-  transform: translate(1734px, -2528px);
+  transform: translate(631px, -266px);
 }
 
 .bubble:nth-child(23) {
-  height: 10px;
-  width: 10px;
+  height: 3px;
+  width: 3px;
   animation-delay: -4.6s;
-  transform: translate(853px, -847px);
+  transform: translate(1723px, -2469px);
 }
 
 .bubble:nth-child(24) {
-  height: 1px;
-  width: 1px;
+  height: 9px;
+  width: 9px;
   animation-delay: -4.8s;
-  transform: translate(436px, -1671px);
+  transform: translate(1877px, -438px);
 }
 
 .bubble:nth-child(25) {
-  height: 4px;
-  width: 4px;
+  height: 9px;
+  width: 9px;
   animation-delay: -5s;
-  transform: translate(1327px, -2528px);
+  transform: translate(1708px, -615px);
 }
 
 .bubble:nth-child(26) {
-  height: 8px;
-  width: 8px;
+  height: 10px;
+  width: 10px;
   animation-delay: -5.2s;
-  transform: translate(1308px, -751px);
+  transform: translate(1884px, -1471px);
 }
 
 .bubble:nth-child(27) {
-  height: 6px;
-  width: 6px;
+  height: 3px;
+  width: 3px;
   animation-delay: -5.4s;
-  transform: translate(37px, -1229px);
+  transform: translate(617px, -1727px);
 }
 
 .bubble:nth-child(28) {
-  height: 6px;
-  width: 6px;
+  height: 3px;
+  width: 3px;
   animation-delay: -5.6s;
-  transform: translate(174px, -2309px);
+  transform: translate(1002px, -407px);
 }
 
 .bubble:nth-child(29) {
-  height: 7px;
-  width: 7px;
+  height: 10px;
+  width: 10px;
   animation-delay: -5.8s;
-  transform: translate(929px, -587px);
+  transform: translate(181px, -2856px);
 }
 
 .bubble:nth-child(30) {
-  height: 5px;
-  width: 5px;
+  height: 10px;
+  width: 10px;
   animation-delay: -6s;
-  transform: translate(1526px, -1726px);
+  transform: translate(437px, -2536px);
 }
 
 .bubble:nth-child(31) {
-  height: 4px;
-  width: 4px;
+  height: 1px;
+  width: 1px;
   animation-delay: -6.2s;
-  transform: translate(95px, -2698px);
+  transform: translate(1462px, -1723px);
 }
 
 .bubble:nth-child(32) {
-  height: 1px;
-  width: 1px;
+  height: 7px;
+  width: 7px;
   animation-delay: -6.4s;
-  transform: translate(488px, -1408px);
+  transform: translate(1978px, -1992px);
 }
 
 .bubble:nth-child(33) {
-  height: 7px;
-  width: 7px;
+  height: 2px;
+  width: 2px;
   animation-delay: -6.6s;
-  transform: translate(1352px, -94px);
+  transform: translate(910px, -375px);
 }
 
 .bubble:nth-child(34) {
-  height: 3px;
-  width: 3px;
+  height: 4px;
+  width: 4px;
   animation-delay: -6.8s;
-  transform: translate(261px, -747px);
+  transform: translate(984px, -2061px);
 }
 
 .bubble:nth-child(35) {
-  height: 5px;
-  width: 5px;
+  height: 6px;
+  width: 6px;
   animation-delay: -7s;
-  transform: translate(19px, -1946px);
+  transform: translate(222px, -2514px);
 }
 
 .bubble:nth-child(36) {
-  height: 10px;
-  width: 10px;
+  height: 8px;
+  width: 8px;
   animation-delay: -7.2s;
-  transform: translate(85px, -1253px);
+  transform: translate(616px, -1818px);
 }
 
 .bubble:nth-child(37) {
-  height: 10px;
-  width: 10px;
+  height: 4px;
+  width: 4px;
   animation-delay: -7.4s;
-  transform: translate(46px, -2043px);
+  transform: translate(1764px, -128px);
 }
 
 .bubble:nth-child(38) {
-  height: 6px;
-  width: 6px;
+  height: 4px;
+  width: 4px;
   animation-delay: -7.6s;
-  transform: translate(1554px, -1219px);
+  transform: translate(809px, -1154px);
 }
 
 .bubble:nth-child(39) {
-  height: 3px;
-  width: 3px;
+  height: 7px;
+  width: 7px;
   animation-delay: -7.8s;
-  transform: translate(964px, -1744px);
+  transform: translate(419px, -2104px);
 }
 
 .bubble:nth-child(40) {
-  height: 10px;
-  width: 10px;
+  height: 4px;
+  width: 4px;
   animation-delay: -8s;
-  transform: translate(854px, -110px);
+  transform: translate(632px, -2684px);
 }
 
 .bubble:nth-child(41) {
-  height: 9px;
-  width: 9px;
+  height: 5px;
+  width: 5px;
   animation-delay: -8.2s;
-  transform: translate(246px, -1788px);
+  transform: translate(355px, -2443px);
 }
 
 .bubble:nth-child(42) {
-  height: 9px;
-  width: 9px;
+  height: 7px;
+  width: 7px;
   animation-delay: -8.4s;
-  transform: translate(1776px, -2563px);
+  transform: translate(1188px, -2805px);
 }
 
 .bubble:nth-child(43) {
-  height: 2px;
-  width: 2px;
+  height: 7px;
+  width: 7px;
   animation-delay: -8.6s;
-  transform: translate(1095px, -175px);
+  transform: translate(1100px, -823px);
 }
 
 .bubble:nth-child(44) {
-  height: 4px;
-  width: 4px;
+  height: 1px;
+  width: 1px;
   animation-delay: -8.8s;
-  transform: translate(1055px, -2342px);
+  transform: translate(588px, -2304px);
 }
 
 .bubble:nth-child(45) {
-  height: 1px;
-  width: 1px;
+  height: 6px;
+  width: 6px;
   animation-delay: -9s;
-  transform: translate(393px, -1329px);
+  transform: translate(913px, -284px);
 }
 
 .bubble:nth-child(46) {
-  height: 5px;
-  width: 5px;
+  height: 10px;
+  width: 10px;
   animation-delay: -9.2s;
-  transform: translate(462px, -1167px);
+  transform: translate(791px, -1456px);
 }
 
 .bubble:nth-child(47) {
-  height: 2px;
-  width: 2px;
+  height: 1px;
+  width: 1px;
   animation-delay: -9.4s;
-  transform: translate(1423px, -2515px);
+  transform: translate(861px, -2883px);
 }
 
 .bubble:nth-child(48) {
-  height: 2px;
-  width: 2px;
+  height: 10px;
+  width: 10px;
   animation-delay: -9.6s;
-  transform: translate(142px, -614px);
+  transform: translate(1371px, -1805px);
 }
 
 .bubble:nth-child(49) {
-  height: 4px;
-  width: 4px;
+  height: 7px;
+  width: 7px;
   animation-delay: -9.8s;
-  transform: translate(1608px, -2873px);
+  transform: translate(508px, -277px);
 }
 
 .bubble:nth-child(50) {
-  height: 9px;
-  width: 9px;
+  height: 8px;
+  width: 8px;
   animation-delay: -10s;
-  transform: translate(1441px, -916px);
+  transform: translate(1931px, -2975px);
 }
 
 .bubble:nth-child(51) {
-  height: 6px;
-  width: 6px;
+  height: 3px;
+  width: 3px;
   animation-delay: -10.2s;
-  transform: translate(1957px, -123px);
+  transform: translate(105px, -1039px);
 }
 
 .bubble:nth-child(52) {
-  height: 1px;
-  width: 1px;
+  height: 7px;
+  width: 7px;
   animation-delay: -10.4s;
-  transform: translate(45px, -1386px);
+  transform: translate(1962px, -606px);
 }
 
 .bubble:nth-child(53) {
   height: 3px;
   width: 3px;
   animation-delay: -10.6s;
-  transform: translate(1230px, -2304px);
+  transform: translate(1898px, -95px);
 }
 
 .bubble:nth-child(54) {
-  height: 8px;
-  width: 8px;
+  height: 3px;
+  width: 3px;
   animation-delay: -10.8s;
-  transform: translate(498px, -2375px);
+  transform: translate(1149px, -537px);
 }
 
 .bubble:nth-child(55) {
-  height: 2px;
-  width: 2px;
+  height: 3px;
+  width: 3px;
   animation-delay: -11s;
-  transform: translate(550px, -1178px);
+  transform: translate(616px, -1835px);
 }
 
 .bubble:nth-child(56) {
-  height: 9px;
-  width: 9px;
+  height: 1px;
+  width: 1px;
   animation-delay: -11.2s;
-  transform: translate(1120px, -261px);
+  transform: translate(649px, -1757px);
 }
 
 .bubble:nth-child(57) {
-  height: 3px;
-  width: 3px;
+  height: 5px;
+  width: 5px;
   animation-delay: -11.4s;
-  transform: translate(1679px, -1008px);
+  transform: translate(192px, -1444px);
 }
 
 .bubble:nth-child(58) {
-  height: 5px;
-  width: 5px;
+  height: 7px;
+  width: 7px;
   animation-delay: -11.6s;
-  transform: translate(650px, -2794px);
+  transform: translate(832px, -2806px);
 }
 
 .bubble:nth-child(59) {
-  height: 10px;
-  width: 10px;
+  height: 1px;
+  width: 1px;
   animation-delay: -11.8s;
-  transform: translate(1467px, -576px);
+  transform: translate(1478px, -126px);
 }
 
 .bubble:nth-child(60) {
-  height: 5px;
-  width: 5px;
+  height: 10px;
+  width: 10px;
   animation-delay: -12s;
-  transform: translate(1908px, -2691px);
+  transform: translate(1937px, -1649px);
 }
 
 .bubble:nth-child(61) {
-  height: 2px;
-  width: 2px;
+  height: 4px;
+  width: 4px;
   animation-delay: -12.2s;
-  transform: translate(1745px, -2365px);
+  transform: translate(1783px, -2966px);
 }
 
 .bubble:nth-child(62) {
-  height: 3px;
-  width: 3px;
+  height: 1px;
+  width: 1px;
   animation-delay: -12.4s;
-  transform: translate(1809px, -1107px);
+  transform: translate(582px, -2175px);
 }
 
 .bubble:nth-child(63) {
-  height: 4px;
-  width: 4px;
+  height: 3px;
+  width: 3px;
   animation-delay: -12.6s;
-  transform: translate(1063px, -808px);
+  transform: translate(1866px, -411px);
 }
 
 .bubble:nth-child(64) {
-  height: 1px;
-  width: 1px;
+  height: 6px;
+  width: 6px;
   animation-delay: -12.8s;
-  transform: translate(891px, -2286px);
+  transform: translate(1143px, -2805px);
 }
 
 .bubble:nth-child(65) {
-  height: 7px;
-  width: 7px;
+  height: 5px;
+  width: 5px;
   animation-delay: -13s;
-  transform: translate(1413px, -1419px);
+  transform: translate(1006px, -2192px);
 }
 
 .bubble:nth-child(66) {
-  height: 1px;
-  width: 1px;
+  height: 8px;
+  width: 8px;
   animation-delay: -13.2s;
-  transform: translate(393px, -2321px);
+  transform: translate(608px, -958px);
 }
 
 .bubble:nth-child(67) {
-  height: 9px;
-  width: 9px;
+  height: 7px;
+  width: 7px;
   animation-delay: -13.4s;
-  transform: translate(1620px, -2681px);
+  transform: translate(995px, -2057px);
 }
 
 .bubble:nth-child(68) {
-  height: 10px;
-  width: 10px;
+  height: 1px;
+  width: 1px;
   animation-delay: -13.6s;
-  transform: translate(672px, -274px);
+  transform: translate(895px, -998px);
 }
 
 .bubble:nth-child(69) {
-  height: 9px;
-  width: 9px;
+  height: 2px;
+  width: 2px;
   animation-delay: -13.8s;
-  transform: translate(468px, -1659px);
+  transform: translate(271px, -564px);
 }
 
 .bubble:nth-child(70) {
-  height: 4px;
-  width: 4px;
+  height: 8px;
+  width: 8px;
   animation-delay: -14s;
-  transform: translate(1231px, -1711px);
+  transform: translate(1848px, -1639px);
 }
 
 .bubble:nth-child(71) {
-  height: 5px;
-  width: 5px;
+  height: 2px;
+  width: 2px;
   animation-delay: -14.2s;
-  transform: translate(1084px, -1916px);
+  transform: translate(830px, -74px);
 }
 
 .bubble:nth-child(72) {
-  height: 4px;
-  width: 4px;
+  height: 2px;
+  width: 2px;
   animation-delay: -14.4s;
-  transform: translate(922px, -821px);
+  transform: translate(554px, -2908px);
 }
 
 .bubble:nth-child(73) {
-  height: 4px;
-  width: 4px;
+  height: 7px;
+  width: 7px;
   animation-delay: -14.6s;
-  transform: translate(1950px, -823px);
+  transform: translate(1265px, -189px);
 }
 
 .bubble:nth-child(74) {
-  height: 6px;
-  width: 6px;
+  height: 2px;
+  width: 2px;
   animation-delay: -14.8s;
-  transform: translate(1629px, -413px);
+  transform: translate(1529px, -1580px);
 }
 
 .bubble:nth-child(75) {
   height: 5px;
   width: 5px;
   animation-delay: -15s;
-  transform: translate(1672px, -215px);
+  transform: translate(1589px, -1200px);
 }
 
 .bubble:nth-child(76) {
   height: 4px;
   width: 4px;
   animation-delay: -15.2s;
-  transform: translate(519px, -975px);
+  transform: translate(1108px, -783px);
 }
 
 .bubble:nth-child(77) {
-  height: 4px;
-  width: 4px;
+  height: 3px;
+  width: 3px;
   animation-delay: -15.4s;
-  transform: translate(1026px, -1569px);
+  transform: translate(236px, -2454px);
 }
 
 .bubble:nth-child(78) {
-  height: 4px;
-  width: 4px;
+  height: 10px;
+  width: 10px;
   animation-delay: -15.6s;
-  transform: translate(1528px, -1677px);
+  transform: translate(55px, -739px);
 }
 
 .bubble:nth-child(79) {
-  height: 3px;
-  width: 3px;
+  height: 1px;
+  width: 1px;
   animation-delay: -15.8s;
-  transform: translate(730px, -1855px);
+  transform: translate(1288px, -1189px);
 }
 
 .bubble:nth-child(80) {
-  height: 6px;
-  width: 6px;
+  height: 2px;
+  width: 2px;
   animation-delay: -16s;
-  transform: translate(1304px, -96px);
+  transform: translate(1292px, -1140px);
 }
 
 .bubble:nth-child(81) {
-  height: 3px;
-  width: 3px;
+  height: 6px;
+  width: 6px;
   animation-delay: -16.2s;
-  transform: translate(1582px, -118px);
+  transform: translate(31px, -2503px);
 }
 
 .bubble:nth-child(82) {
-  height: 2px;
-  width: 2px;
+  height: 8px;
+  width: 8px;
   animation-delay: -16.4s;
-  transform: translate(141px, -2012px);
+  transform: translate(634px, -2016px);
 }
 
 .bubble:nth-child(83) {
   height: 3px;
   width: 3px;
   animation-delay: -16.6s;
-  transform: translate(476px, -2351px);
+  transform: translate(1648px, -603px);
 }
 
 .bubble:nth-child(84) {
-  height: 1px;
-  width: 1px;
+  height: 7px;
+  width: 7px;
   animation-delay: -16.8s;
-  transform: translate(1915px, -2619px);
+  transform: translate(1034px, -2130px);
 }
 
 .bubble:nth-child(85) {
-  height: 3px;
-  width: 3px;
+  height: 8px;
+  width: 8px;
   animation-delay: -17s;
-  transform: translate(491px, -312px);
+  transform: translate(658px, -1550px);
 }
 
 .bubble:nth-child(86) {
   height: 3px;
   width: 3px;
   animation-delay: -17.2s;
-  transform: translate(720px, -758px);
+  transform: translate(77px, -448px);
 }
 
 .bubble:nth-child(87) {
-  height: 6px;
-  width: 6px;
+  height: 1px;
+  width: 1px;
   animation-delay: -17.4s;
-  transform: translate(376px, -2638px);
+  transform: translate(234px, -964px);
 }
 
 .bubble:nth-child(88) {
-  height: 9px;
-  width: 9px;
+  height: 10px;
+  width: 10px;
   animation-delay: -17.6s;
-  transform: translate(1961px, -2364px);
+  transform: translate(1965px, -2879px);
 }
 
 .bubble:nth-child(89) {
-  height: 7px;
-  width: 7px;
+  height: 5px;
+  width: 5px;
   animation-delay: -17.8s;
-  transform: translate(1895px, -799px);
+  transform: translate(625px, -1199px);
 }
 
 .bubble:nth-child(90) {
-  height: 9px;
-  width: 9px;
+  height: 10px;
+  width: 10px;
   animation-delay: -18s;
-  transform: translate(897px, -408px);
+  transform: translate(596px, -2990px);
 }
 
 .bubble:nth-child(91) {
-  height: 3px;
-  width: 3px;
+  height: 9px;
+  width: 9px;
   animation-delay: -18.2s;
-  transform: translate(1358px, -780px);
+  transform: translate(553px, -2310px);
 }
 
 .bubble:nth-child(92) {
-  height: 3px;
-  width: 3px;
+  height: 9px;
+  width: 9px;
   animation-delay: -18.4s;
-  transform: translate(1593px, -1686px);
+  transform: translate(1651px, -385px);
 }
 
 .bubble:nth-child(93) {
-  height: 8px;
-  width: 8px;
+  height: 1px;
+  width: 1px;
   animation-delay: -18.6s;
-  transform: translate(284px, -2784px);
+  transform: translate(745px, -1234px);
 }
 
 .bubble:nth-child(94) {
-  height: 5px;
-  width: 5px;
+  height: 4px;
+  width: 4px;
   animation-delay: -18.8s;
-  transform: translate(1784px, -1381px);
+  transform: translate(1204px, -78px);
 }
 
 .bubble:nth-child(95) {
-  height: 7px;
-  width: 7px;
+  height: 8px;
+  width: 8px;
   animation-delay: -19s;
-  transform: translate(585px, -460px);
+  transform: translate(1194px, -146px);
 }
 
 .bubble:nth-child(96) {
-  height: 8px;
-  width: 8px;
+  height: 9px;
+  width: 9px;
   animation-delay: -19.2s;
-  transform: translate(643px, -2549px);
+  transform: translate(1587px, -1557px);
 }
 
 .bubble:nth-child(97) {
-  height: 3px;
-  width: 3px;
+  height: 5px;
+  width: 5px;
   animation-delay: -19.4s;
-  transform: translate(1277px, -2602px);
+  transform: translate(598px, -2800px);
 }
 
 .bubble:nth-child(98) {
-  height: 7px;
-  width: 7px;
+  height: 9px;
+  width: 9px;
   animation-delay: -19.6s;
-  transform: translate(1240px, -675px);
+  transform: translate(113px, -1292px);
 }
 
 .bubble:nth-child(99) {
-  height: 3px;
-  width: 3px;
+  height: 8px;
+  width: 8px;
   animation-delay: -19.8s;
-  transform: translate(1234px, -2801px);
+  transform: translate(592px, -555px);
 }
 
 .bubble:nth-child(100) {
-  height: 5px;
-  width: 5px;
+  height: 6px;
+  width: 6px;
   animation-delay: -20s;
-  transform: translate(899px, -1203px);
+  transform: translate(1823px, -1574px);
 }
 
 .bubble-turquoise .bubble {
