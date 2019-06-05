@@ -54,6 +54,10 @@
     align-items: center;
 }
 
+.align-star{
+    align-items: flex-start;
+}
+
 .flex-h-end {
     @include flex;
     justify-content: flex-end;
