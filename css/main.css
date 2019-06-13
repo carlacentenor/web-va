@@ -1049,6 +1049,12 @@ canvas {
   left: 180px;
   text-align: left;
 }
+@media screen and (min-height: 900px) {
+  .animate-text-move {
+    animation: textmoveresponsive 2s forwards;
+    animation-delay: 2s;
+  }
+}
 
 @keyframes textmove {
   from {
@@ -1060,6 +1066,22 @@ canvas {
   }
   to {
     top: 300px;
+    text-align: center;
+    opacity: 1;
+    color: white;
+    width: 200px;
+  }
+}
+@keyframes textmoveresponsive {
+  from {
+    top: 0;
+    opacity: 1;
+    color: #224364;
+    width: 200px;
+    text-align: center;
+  }
+  to {
+    top: 345px;
     text-align: center;
     opacity: 1;
     color: white;
@@ -1078,6 +1100,12 @@ canvas {
   font-size: 24px;
   padding-left: 4em;
 }
+@media screen and (min-height: 900px) {
+  .animate-text-move-design {
+    animation: textmovedesignresponsive 2s forwards;
+    animation-delay: 2s;
+  }
+}
 
 @keyframes textmovedesign {
   0% {
@@ -1091,18 +1119,16 @@ canvas {
     color: white;
   }
 }
-@keyframes textmovedesignres {
+@keyframes textmovedesignresponsive {
   0% {
     top: 0;
     opacity: 1;
     color: #224364;
   }
-  95% {
-    top: 300px;
-    color: white;
-  }
   100% {
-    opacity: 0;
+    top: 423px;
+    opacity: 1;
+    color: white;
   }
 }
 .animate-show-text {
@@ -1208,6 +1234,12 @@ canvas {
   z-index: 3;
   color: #224364;
 }
+@media screen and (min-height: 900px) {
+  .animate-text-move-developer {
+    animation: textmovedeveloper-responsive 2s forwards;
+    animation-delay: 2s;
+  }
+}
 
 @keyframes textmovedeveloper {
   from {
@@ -1219,6 +1251,21 @@ canvas {
   to {
     width: 300px;
     top: 355px;
+    left: -40px;
+    opacity: 1;
+    text-align: center;
+  }
+}
+@keyframes textmovedeveloper-responsive {
+  from {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    text-align: center;
+  }
+  to {
+    width: 300px;
+    top: 400px;
     left: -40px;
     opacity: 1;
     text-align: center;
@@ -1280,6 +1327,12 @@ canvas {
   color: #224364;
   font-family: "Lucida Grande Regular";
 }
+@media screen and (min-width: 1440px) {
+  .animate-text-move-create {
+    animation: textmovecreate-responsive 2s forwards;
+    animation-delay: 2s;
+  }
+}
 
 @keyframes textmovecreate {
   from {
@@ -1291,6 +1344,22 @@ canvas {
   }
   to {
     top: 330px;
+    text-align: center;
+    opacity: 1;
+    color: white;
+    width: 200px;
+  }
+}
+@keyframes textmovecreate-responsive {
+  from {
+    top: 0;
+    opacity: 1;
+    color: #224364;
+    width: 200px;
+    text-align: center;
+  }
+  to {
+    top: 377px;
     text-align: center;
     opacity: 1;
     color: white;
@@ -1352,7 +1421,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-76px, -164px);
+    transform: translate(-174px, -36px);
   }
 }
 
@@ -1364,7 +1433,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-120px, -75px);
+    transform: translate(-92px, -34px);
   }
 }
 
@@ -1376,7 +1445,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-57px, -97px);
+    transform: translate(-200px, -91px);
   }
 }
 
@@ -1388,7 +1457,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-90px, -41px);
+    transform: translate(-78px, -65px);
   }
 }
 
@@ -1400,7 +1469,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-82px, -66px);
+    transform: translate(-78px, -126px);
   }
 }
 
@@ -1412,7 +1481,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-164px, -179px);
+    transform: translate(-30px, -66px);
   }
 }
 
@@ -1424,7 +1493,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-150px, -94px);
+    transform: translate(-79px, -42px);
   }
 }
 
@@ -1436,7 +1505,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-150px, -173px);
+    transform: translate(-5px, -179px);
   }
 }
 
@@ -1448,7 +1517,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-21px, -5px);
+    transform: translate(-79px, -13px);
   }
 }
 
@@ -1460,7 +1529,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-61px, -131px);
+    transform: translate(-70px, -80px);
   }
 }
 
@@ -1472,7 +1541,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-32px, -175px);
+    transform: translate(-107px, -106px);
   }
 }
 
@@ -1484,7 +1553,7 @@ canvas {
     transform: translate(-5px, -9px);
   }
   100% {
-    transform: translate(-185px, -158px);
+    transform: translate(-102px, -119px);
   }
 }
 
@@ -6413,703 +6482,703 @@ canvas {
 }
 
 .bubble:nth-child(1) {
-  height: 3px;
-  width: 3px;
+  height: 7px;
+  width: 7px;
   animation-delay: -0.2s;
-  transform: translate(15px, -2946px);
+  transform: translate(440px, -839px);
 }
 
 .bubble:nth-child(2) {
-  height: 6px;
-  width: 6px;
+  height: 2px;
+  width: 2px;
   animation-delay: -0.4s;
-  transform: translate(1340px, -1131px);
+  transform: translate(1077px, -2569px);
 }
 
 .bubble:nth-child(3) {
-  height: 6px;
-  width: 6px;
+  height: 4px;
+  width: 4px;
   animation-delay: -0.6s;
-  transform: translate(61px, -2909px);
+  transform: translate(902px, -852px);
 }
 
 .bubble:nth-child(4) {
-  height: 1px;
-  width: 1px;
+  height: 2px;
+  width: 2px;
   animation-delay: -0.8s;
-  transform: translate(31px, -747px);
+  transform: translate(1422px, -1128px);
 }
 
 .bubble:nth-child(5) {
-  height: 7px;
-  width: 7px;
+  height: 1px;
+  width: 1px;
   animation-delay: -1s;
-  transform: translate(1139px, -719px);
+  transform: translate(1252px, -1660px);
 }
 
 .bubble:nth-child(6) {
-  height: 6px;
-  width: 6px;
+  height: 7px;
+  width: 7px;
   animation-delay: -1.2s;
-  transform: translate(52px, -1041px);
+  transform: translate(1202px, -1115px);
 }
 
 .bubble:nth-child(7) {
-  height: 7px;
-  width: 7px;
+  height: 2px;
+  width: 2px;
   animation-delay: -1.4s;
-  transform: translate(1237px, -1070px);
+  transform: translate(703px, -2864px);
 }
 
 .bubble:nth-child(8) {
-  height: 4px;
-  width: 4px;
+  height: 3px;
+  width: 3px;
   animation-delay: -1.6s;
-  transform: translate(134px, -964px);
+  transform: translate(165px, -786px);
 }
 
 .bubble:nth-child(9) {
-  height: 10px;
-  width: 10px;
+  height: 3px;
+  width: 3px;
   animation-delay: -1.8s;
-  transform: translate(109px, -937px);
+  transform: translate(1017px, -1966px);
 }
 
 .bubble:nth-child(10) {
-  height: 7px;
-  width: 7px;
+  height: 10px;
+  width: 10px;
   animation-delay: -2s;
-  transform: translate(987px, -2323px);
+  transform: translate(285px, -914px);
 }
 
 .bubble:nth-child(11) {
-  height: 3px;
-  width: 3px;
+  height: 8px;
+  width: 8px;
   animation-delay: -2.2s;
-  transform: translate(1849px, -2866px);
+  transform: translate(1929px, -2146px);
 }
 
 .bubble:nth-child(12) {
-  height: 9px;
-  width: 9px;
+  height: 1px;
+  width: 1px;
   animation-delay: -2.4s;
-  transform: translate(1743px, -2128px);
+  transform: translate(1980px, -418px);
 }
 
 .bubble:nth-child(13) {
-  height: 10px;
-  width: 10px;
+  height: 8px;
+  width: 8px;
   animation-delay: -2.6s;
-  transform: translate(1684px, -1444px);
+  transform: translate(1651px, -2293px);
 }
 
 .bubble:nth-child(14) {
-  height: 6px;
-  width: 6px;
+  height: 3px;
+  width: 3px;
   animation-delay: -2.8s;
-  transform: translate(1926px, -902px);
+  transform: translate(359px, -1966px);
 }
 
 .bubble:nth-child(15) {
-  height: 3px;
-  width: 3px;
+  height: 2px;
+  width: 2px;
   animation-delay: -3s;
-  transform: translate(1850px, -174px);
+  transform: translate(962px, -1740px);
 }
 
 .bubble:nth-child(16) {
-  height: 1px;
-  width: 1px;
+  height: 8px;
+  width: 8px;
   animation-delay: -3.2s;
-  transform: translate(1159px, -46px);
+  transform: translate(310px, -884px);
 }
 
 .bubble:nth-child(17) {
-  height: 8px;
-  width: 8px;
+  height: 5px;
+  width: 5px;
   animation-delay: -3.4s;
-  transform: translate(896px, -223px);
+  transform: translate(181px, -2856px);
 }
 
 .bubble:nth-child(18) {
-  height: 1px;
-  width: 1px;
+  height: 9px;
+  width: 9px;
   animation-delay: -3.6s;
-  transform: translate(343px, -1441px);
+  transform: translate(872px, -1319px);
 }
 
 .bubble:nth-child(19) {
-  height: 10px;
-  width: 10px;
+  height: 8px;
+  width: 8px;
   animation-delay: -3.8s;
-  transform: translate(477px, -1893px);
+  transform: translate(442px, -1145px);
 }
 
 .bubble:nth-child(20) {
-  height: 3px;
-  width: 3px;
+  height: 6px;
+  width: 6px;
   animation-delay: -4s;
-  transform: translate(585px, -675px);
+  transform: translate(1300px, -59px);
 }
 
 .bubble:nth-child(21) {
-  height: 8px;
-  width: 8px;
+  height: 4px;
+  width: 4px;
   animation-delay: -4.2s;
-  transform: translate(498px, -1316px);
+  transform: translate(1108px, -2482px);
 }
 
 .bubble:nth-child(22) {
-  height: 3px;
-  width: 3px;
+  height: 2px;
+  width: 2px;
   animation-delay: -4.4s;
-  transform: translate(1244px, -596px);
+  transform: translate(439px, -1737px);
 }
 
 .bubble:nth-child(23) {
-  height: 2px;
-  width: 2px;
+  height: 8px;
+  width: 8px;
   animation-delay: -4.6s;
-  transform: translate(1290px, -487px);
+  transform: translate(359px, -682px);
 }
 
 .bubble:nth-child(24) {
-  height: 2px;
-  width: 2px;
+  height: 10px;
+  width: 10px;
   animation-delay: -4.8s;
-  transform: translate(1585px, -834px);
+  transform: translate(1116px, -111px);
 }
 
 .bubble:nth-child(25) {
-  height: 9px;
-  width: 9px;
+  height: 10px;
+  width: 10px;
   animation-delay: -5s;
-  transform: translate(455px, -1504px);
+  transform: translate(1503px, -966px);
 }
 
 .bubble:nth-child(26) {
-  height: 8px;
-  width: 8px;
+  height: 5px;
+  width: 5px;
   animation-delay: -5.2s;
-  transform: translate(1478px, -157px);
+  transform: translate(1145px, -2368px);
 }
 
 .bubble:nth-child(27) {
-  height: 9px;
-  width: 9px;
+  height: 6px;
+  width: 6px;
   animation-delay: -5.4s;
-  transform: translate(779px, -1731px);
+  transform: translate(1038px, -2903px);
 }
 
 .bubble:nth-child(28) {
-  height: 9px;
-  width: 9px;
+  height: 5px;
+  width: 5px;
   animation-delay: -5.6s;
-  transform: translate(1231px, -2118px);
+  transform: translate(89px, -2868px);
 }
 
 .bubble:nth-child(29) {
-  height: 10px;
-  width: 10px;
+  height: 1px;
+  width: 1px;
   animation-delay: -5.8s;
-  transform: translate(687px, -1487px);
+  transform: translate(1358px, -1386px);
 }
 
 .bubble:nth-child(30) {
-  height: 8px;
-  width: 8px;
+  height: 4px;
+  width: 4px;
   animation-delay: -6s;
-  transform: translate(1332px, -1795px);
+  transform: translate(1879px, -252px);
 }
 
 .bubble:nth-child(31) {
-  height: 2px;
-  width: 2px;
+  height: 4px;
+  width: 4px;
   animation-delay: -6.2s;
-  transform: translate(532px, -30px);
+  transform: translate(569px, -2107px);
 }
 
 .bubble:nth-child(32) {
-  height: 10px;
-  width: 10px;
+  height: 5px;
+  width: 5px;
   animation-delay: -6.4s;
-  transform: translate(1216px, -717px);
+  transform: translate(1833px, -21px);
 }
 
 .bubble:nth-child(33) {
-  height: 7px;
-  width: 7px;
+  height: 10px;
+  width: 10px;
   animation-delay: -6.6s;
-  transform: translate(1207px, -94px);
+  transform: translate(1933px, -1084px);
 }
 
 .bubble:nth-child(34) {
-  height: 2px;
-  width: 2px;
+  height: 4px;
+  width: 4px;
   animation-delay: -6.8s;
-  transform: translate(178px, -2697px);
+  transform: translate(629px, -1892px);
 }
 
 .bubble:nth-child(35) {
-  height: 7px;
-  width: 7px;
+  height: 9px;
+  width: 9px;
   animation-delay: -7s;
-  transform: translate(1545px, -2585px);
+  transform: translate(979px, -1253px);
 }
 
 .bubble:nth-child(36) {
-  height: 7px;
-  width: 7px;
+  height: 2px;
+  width: 2px;
   animation-delay: -7.2s;
-  transform: translate(1761px, -148px);
+  transform: translate(417px, -1871px);
 }
 
 .bubble:nth-child(37) {
-  height: 10px;
-  width: 10px;
+  height: 2px;
+  width: 2px;
   animation-delay: -7.4s;
-  transform: translate(1788px, -158px);
+  transform: translate(1160px, -1375px);
 }
 
 .bubble:nth-child(38) {
-  height: 6px;
-  width: 6px;
+  height: 5px;
+  width: 5px;
   animation-delay: -7.6s;
-  transform: translate(1665px, -870px);
+  transform: translate(223px, -2189px);
 }
 
 .bubble:nth-child(39) {
-  height: 5px;
-  width: 5px;
+  height: 3px;
+  width: 3px;
   animation-delay: -7.8s;
-  transform: translate(209px, -1533px);
+  transform: translate(1193px, -2696px);
 }
 
 .bubble:nth-child(40) {
-  height: 2px;
-  width: 2px;
+  height: 8px;
+  width: 8px;
   animation-delay: -8s;
-  transform: translate(95px, -738px);
+  transform: translate(760px, -226px);
 }
 
 .bubble:nth-child(41) {
-  height: 6px;
-  width: 6px;
+  height: 10px;
+  width: 10px;
   animation-delay: -8.2s;
-  transform: translate(476px, -533px);
+  transform: translate(1902px, -2744px);
 }
 
 .bubble:nth-child(42) {
-  height: 2px;
-  width: 2px;
+  height: 4px;
+  width: 4px;
   animation-delay: -8.4s;
-  transform: translate(1004px, -578px);
+  transform: translate(1298px, -2753px);
 }
 
 .bubble:nth-child(43) {
-  height: 3px;
-  width: 3px;
+  height: 2px;
+  width: 2px;
   animation-delay: -8.6s;
-  transform: translate(202px, -2810px);
+  transform: translate(1274px, -848px);
 }
 
 .bubble:nth-child(44) {
-  height: 8px;
-  width: 8px;
+  height: 3px;
+  width: 3px;
   animation-delay: -8.8s;
-  transform: translate(872px, -2501px);
+  transform: translate(116px, -1462px);
 }
 
 .bubble:nth-child(45) {
-  height: 4px;
-  width: 4px;
+  height: 5px;
+  width: 5px;
   animation-delay: -9s;
-  transform: translate(1013px, -151px);
+  transform: translate(207px, -1869px);
 }
 
 .bubble:nth-child(46) {
   height: 4px;
   width: 4px;
   animation-delay: -9.2s;
-  transform: translate(1519px, -1168px);
+  transform: translate(1332px, -832px);
 }
 
 .bubble:nth-child(47) {
-  height: 7px;
-  width: 7px;
+  height: 9px;
+  width: 9px;
   animation-delay: -9.4s;
-  transform: translate(1079px, -552px);
+  transform: translate(417px, -1072px);
 }
 
 .bubble:nth-child(48) {
   height: 5px;
   width: 5px;
   animation-delay: -9.6s;
-  transform: translate(906px, -2735px);
+  transform: translate(608px, -298px);
 }
 
 .bubble:nth-child(49) {
-  height: 2px;
-  width: 2px;
+  height: 5px;
+  width: 5px;
   animation-delay: -9.8s;
-  transform: translate(880px, -2560px);
+  transform: translate(707px, -606px);
 }
 
 .bubble:nth-child(50) {
-  height: 6px;
-  width: 6px;
+  height: 2px;
+  width: 2px;
   animation-delay: -10s;
-  transform: translate(969px, -1646px);
+  transform: translate(1157px, -953px);
 }
 
 .bubble:nth-child(51) {
-  height: 9px;
-  width: 9px;
+  height: 10px;
+  width: 10px;
   animation-delay: -10.2s;
-  transform: translate(809px, -771px);
+  transform: translate(713px, -133px);
 }
 
 .bubble:nth-child(52) {
-  height: 8px;
-  width: 8px;
+  height: 2px;
+  width: 2px;
   animation-delay: -10.4s;
-  transform: translate(144px, -2610px);
+  transform: translate(795px, -2884px);
 }
 
 .bubble:nth-child(53) {
-  height: 7px;
-  width: 7px;
+  height: 1px;
+  width: 1px;
   animation-delay: -10.6s;
-  transform: translate(1329px, -1180px);
+  transform: translate(488px, -1191px);
 }
 
 .bubble:nth-child(54) {
-  height: 6px;
-  width: 6px;
+  height: 3px;
+  width: 3px;
   animation-delay: -10.8s;
-  transform: translate(389px, -375px);
+  transform: translate(1251px, -1630px);
 }
 
 .bubble:nth-child(55) {
-  height: 5px;
-  width: 5px;
+  height: 2px;
+  width: 2px;
   animation-delay: -11s;
-  transform: translate(958px, -2346px);
+  transform: translate(37px, -2389px);
 }
 
 .bubble:nth-child(56) {
-  height: 3px;
-  width: 3px;
+  height: 9px;
+  width: 9px;
   animation-delay: -11.2s;
-  transform: translate(340px, -2884px);
+  transform: translate(1857px, -1999px);
 }
 
 .bubble:nth-child(57) {
-  height: 2px;
-  width: 2px;
+  height: 5px;
+  width: 5px;
   animation-delay: -11.4s;
-  transform: translate(414px, -216px);
+  transform: translate(1682px, -508px);
 }
 
 .bubble:nth-child(58) {
   height: 2px;
   width: 2px;
   animation-delay: -11.6s;
-  transform: translate(274px, -1262px);
+  transform: translate(1902px, -515px);
 }
 
 .bubble:nth-child(59) {
-  height: 9px;
-  width: 9px;
+  height: 7px;
+  width: 7px;
   animation-delay: -11.8s;
-  transform: translate(1759px, -1681px);
+  transform: translate(1569px, -1977px);
 }
 
 .bubble:nth-child(60) {
-  height: 7px;
-  width: 7px;
+  height: 3px;
+  width: 3px;
   animation-delay: -12s;
-  transform: translate(1344px, -102px);
+  transform: translate(892px, -1948px);
 }
 
 .bubble:nth-child(61) {
-  height: 7px;
-  width: 7px;
+  height: 3px;
+  width: 3px;
   animation-delay: -12.2s;
-  transform: translate(767px, -269px);
+  transform: translate(421px, -1818px);
 }
 
 .bubble:nth-child(62) {
-  height: 6px;
-  width: 6px;
+  height: 1px;
+  width: 1px;
   animation-delay: -12.4s;
-  transform: translate(1282px, -2516px);
+  transform: translate(78px, -1783px);
 }
 
 .bubble:nth-child(63) {
-  height: 2px;
-  width: 2px;
+  height: 6px;
+  width: 6px;
   animation-delay: -12.6s;
-  transform: translate(338px, -1543px);
+  transform: translate(469px, -982px);
 }
 
 .bubble:nth-child(64) {
-  height: 4px;
-  width: 4px;
+  height: 3px;
+  width: 3px;
   animation-delay: -12.8s;
-  transform: translate(1881px, -2216px);
+  transform: translate(1484px, -1252px);
 }
 
 .bubble:nth-child(65) {
-  height: 3px;
-  width: 3px;
+  height: 7px;
+  width: 7px;
   animation-delay: -13s;
-  transform: translate(1278px, -302px);
+  transform: translate(1093px, -2335px);
 }
 
 .bubble:nth-child(66) {
-  height: 2px;
-  width: 2px;
+  height: 3px;
+  width: 3px;
   animation-delay: -13.2s;
-  transform: translate(1907px, -331px);
+  transform: translate(583px, -568px);
 }
 
 .bubble:nth-child(67) {
-  height: 4px;
-  width: 4px;
+  height: 6px;
+  width: 6px;
   animation-delay: -13.4s;
-  transform: translate(1209px, -194px);
+  transform: translate(1114px, -728px);
 }
 
 .bubble:nth-child(68) {
   height: 8px;
   width: 8px;
   animation-delay: -13.6s;
-  transform: translate(1257px, -1788px);
+  transform: translate(931px, -843px);
 }
 
 .bubble:nth-child(69) {
-  height: 7px;
-  width: 7px;
+  height: 9px;
+  width: 9px;
   animation-delay: -13.8s;
-  transform: translate(1217px, -2513px);
+  transform: translate(1876px, -1804px);
 }
 
 .bubble:nth-child(70) {
-  height: 8px;
-  width: 8px;
+  height: 10px;
+  width: 10px;
   animation-delay: -14s;
-  transform: translate(906px, -2443px);
+  transform: translate(1735px, -1037px);
 }
 
 .bubble:nth-child(71) {
-  height: 5px;
-  width: 5px;
+  height: 8px;
+  width: 8px;
   animation-delay: -14.2s;
-  transform: translate(1820px, -2596px);
+  transform: translate(1562px, -1967px);
 }
 
 .bubble:nth-child(72) {
-  height: 4px;
-  width: 4px;
+  height: 9px;
+  width: 9px;
   animation-delay: -14.4s;
-  transform: translate(1449px, -2078px);
+  transform: translate(1401px, -2029px);
 }
 
 .bubble:nth-child(73) {
-  height: 7px;
-  width: 7px;
+  height: 5px;
+  width: 5px;
   animation-delay: -14.6s;
-  transform: translate(1492px, -1071px);
+  transform: translate(645px, -449px);
 }
 
 .bubble:nth-child(74) {
   height: 6px;
   width: 6px;
   animation-delay: -14.8s;
-  transform: translate(1379px, -1171px);
+  transform: translate(862px, -1108px);
 }
 
 .bubble:nth-child(75) {
-  height: 2px;
-  width: 2px;
+  height: 1px;
+  width: 1px;
   animation-delay: -15s;
-  transform: translate(828px, -2949px);
+  transform: translate(1995px, -2129px);
 }
 
 .bubble:nth-child(76) {
-  height: 5px;
-  width: 5px;
+  height: 8px;
+  width: 8px;
   animation-delay: -15.2s;
-  transform: translate(47px, -18px);
+  transform: translate(1568px, -2652px);
 }
 
 .bubble:nth-child(77) {
-  height: 7px;
-  width: 7px;
+  height: 2px;
+  width: 2px;
   animation-delay: -15.4s;
-  transform: translate(133px, -1859px);
+  transform: translate(1535px, -85px);
 }
 
 .bubble:nth-child(78) {
-  height: 6px;
-  width: 6px;
+  height: 2px;
+  width: 2px;
   animation-delay: -15.6s;
-  transform: translate(1713px, -1898px);
+  transform: translate(119px, -1507px);
 }
 
 .bubble:nth-child(79) {
-  height: 7px;
-  width: 7px;
+  height: 9px;
+  width: 9px;
   animation-delay: -15.8s;
-  transform: translate(1610px, -56px);
+  transform: translate(121px, -1812px);
 }
 
 .bubble:nth-child(80) {
-  height: 5px;
-  width: 5px;
+  height: 9px;
+  width: 9px;
   animation-delay: -16s;
-  transform: translate(83px, -1804px);
+  transform: translate(1297px, -2926px);
 }
 
 .bubble:nth-child(81) {
-  height: 4px;
-  width: 4px;
+  height: 9px;
+  width: 9px;
   animation-delay: -16.2s;
-  transform: translate(40px, -2631px);
+  transform: translate(331px, -1070px);
 }
 
 .bubble:nth-child(82) {
   height: 2px;
   width: 2px;
   animation-delay: -16.4s;
-  transform: translate(1322px, -1318px);
+  transform: translate(350px, -1119px);
 }
 
 .bubble:nth-child(83) {
-  height: 5px;
-  width: 5px;
+  height: 4px;
+  width: 4px;
   animation-delay: -16.6s;
-  transform: translate(471px, -2460px);
+  transform: translate(529px, -348px);
 }
 
 .bubble:nth-child(84) {
-  height: 8px;
-  width: 8px;
+  height: 5px;
+  width: 5px;
   animation-delay: -16.8s;
-  transform: translate(41px, -2750px);
+  transform: translate(1458px, -2640px);
 }
 
 .bubble:nth-child(85) {
-  height: 6px;
-  width: 6px;
+  height: 2px;
+  width: 2px;
   animation-delay: -17s;
-  transform: translate(453px, -2795px);
+  transform: translate(1109px, -539px);
 }
 
 .bubble:nth-child(86) {
-  height: 5px;
-  width: 5px;
+  height: 8px;
+  width: 8px;
   animation-delay: -17.2s;
-  transform: translate(1839px, -1973px);
+  transform: translate(1455px, -2741px);
 }
 
 .bubble:nth-child(87) {
-  height: 2px;
-  width: 2px;
+  height: 10px;
+  width: 10px;
   animation-delay: -17.4s;
-  transform: translate(825px, -368px);
+  transform: translate(975px, -1386px);
 }
 
 .bubble:nth-child(88) {
-  height: 7px;
-  width: 7px;
+  height: 4px;
+  width: 4px;
   animation-delay: -17.6s;
-  transform: translate(919px, -602px);
+  transform: translate(168px, -1509px);
 }
 
 .bubble:nth-child(89) {
   height: 5px;
   width: 5px;
   animation-delay: -17.8s;
-  transform: translate(1162px, -403px);
+  transform: translate(1969px, -2229px);
 }
 
 .bubble:nth-child(90) {
-  height: 5px;
-  width: 5px;
+  height: 9px;
+  width: 9px;
   animation-delay: -18s;
-  transform: translate(882px, -150px);
+  transform: translate(447px, -1031px);
 }
 
 .bubble:nth-child(91) {
-  height: 2px;
-  width: 2px;
+  height: 10px;
+  width: 10px;
   animation-delay: -18.2s;
-  transform: translate(326px, -2771px);
+  transform: translate(1883px, -1223px);
 }
 
 .bubble:nth-child(92) {
-  height: 3px;
-  width: 3px;
+  height: 5px;
+  width: 5px;
   animation-delay: -18.4s;
-  transform: translate(857px, -2093px);
+  transform: translate(1079px, -1159px);
 }
 
 .bubble:nth-child(93) {
-  height: 3px;
-  width: 3px;
+  height: 2px;
+  width: 2px;
   animation-delay: -18.6s;
-  transform: translate(1132px, -1122px);
+  transform: translate(114px, -2353px);
 }
 
 .bubble:nth-child(94) {
-  height: 6px;
-  width: 6px;
+  height: 5px;
+  width: 5px;
   animation-delay: -18.8s;
-  transform: translate(707px, -887px);
+  transform: translate(689px, -1442px);
 }
 
 .bubble:nth-child(95) {
-  height: 6px;
-  width: 6px;
+  height: 8px;
+  width: 8px;
   animation-delay: -19s;
-  transform: translate(1908px, -749px);
+  transform: translate(1184px, -1136px);
 }
 
 .bubble:nth-child(96) {
   height: 8px;
   width: 8px;
   animation-delay: -19.2s;
-  transform: translate(403px, -2261px);
+  transform: translate(662px, -2359px);
 }
 
 .bubble:nth-child(97) {
-  height: 8px;
-  width: 8px;
+  height: 1px;
+  width: 1px;
   animation-delay: -19.4s;
-  transform: translate(1538px, -919px);
+  transform: translate(64px, -1250px);
 }
 
 .bubble:nth-child(98) {
-  height: 5px;
-  width: 5px;
+  height: 2px;
+  width: 2px;
   animation-delay: -19.6s;
-  transform: translate(121px, -502px);
+  transform: translate(1095px, -1781px);
 }
 
 .bubble:nth-child(99) {
-  height: 6px;
-  width: 6px;
+  height: 1px;
+  width: 1px;
   animation-delay: -19.8s;
-  transform: translate(66px, -943px);
+  transform: translate(1095px, -1888px);
 }
 
 .bubble:nth-child(100) {
-  height: 9px;
-  width: 9px;
+  height: 3px;
+  width: 3px;
   animation-delay: -20s;
-  transform: translate(1304px, -1632px);
+  transform: translate(1272px, -2437px);
 }
 
 .bubble-turquoise .bubble {
@@ -7425,7 +7494,7 @@ canvas {
 
 .grid-nav {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
 }
 
 .menu-item-grid {
@@ -7480,16 +7549,24 @@ canvas {
 
 .grid-about {
   margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  grid-gap: 2em;
 }
 @media screen and (min-width: 1024px) {
   .grid-about {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 75px 1fr;
     margin-top: 25px;
     height: 45vh;
     justify-content: center;
   }
+}
+
+.grid-icon-align {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.25fr 1fr 15px;
 }
 
 @media screen and (min-width: 1024px) {
