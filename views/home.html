@@ -88,12 +88,25 @@
 
       </div>
       <div class="flex-horizontal-mob relative">
-        <div class="relative flex-center mt-16">
-          <img class="img-balls animate-balls-home" src="../assets/images/balls.png" alt="">
-          <img class="img-balls animate-transition-ball" src="../assets/images/ball-transition.svg" alt="">
-          <img class="img-balls-2 animate-transition-ball animate-innovation" src="../assets/images/innova.png" alt="">
-        </div>
+        <div class="blobs">
 
+          <div class="blob">Users</div>
+          <div class="blob">Technology</div>
+          <div class="blob 
+                      relative"><span class="text-business">Business </span><span class="text-animation position-text">Innovation</span>
+          
+          </div>
+        </div>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+              <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+          </defs>
+        </svg>
 
 
       </div>
