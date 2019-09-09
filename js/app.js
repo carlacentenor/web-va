@@ -61,6 +61,6 @@ routeServices.addEventListener('click', () => {
 })
 
 routeHome.addEventListener('click', () => {
-    window.location.href = '../home.html';
+    window.location.href = '../views/home.html';
     
 });
