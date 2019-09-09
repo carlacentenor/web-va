@@ -38,29 +38,29 @@ function hideOption() {
 
 routeWork.addEventListener('click', () => {
 
-    window.location.href = '../views/proyect.html';
+    window.location.href = 'views/proyect.html';
 
 
 })
 
 routeAbout.addEventListener('click', () => {
-    window.location.href = '../views/about.html';
+    window.location.href = 'views/about.html';
  
 
 })
 
 routeContact.addEventListener('click', () => {
-    window.location.href = '../views/contact.html';
+    window.location.href = 'views/contact.html';
     
 
 })
 
 routeServices.addEventListener('click', () => {
-    window.location.href = '../views/process.html';
+    window.location.href = 'views/process.html';
    
 })
 
 routeHome.addEventListener('click', () => {
-    window.location.href = '../home.html';
+    window.location.href = 'home.html';
     
 });
